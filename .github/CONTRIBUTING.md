@@ -1,3 +1,6 @@
 # Contributing to this Project
 
-For pull requests to be merged, authors s
+For pull requests to be merged, authors should:
+
+* Write any applicable unit tests
+* Add any relevant documen
