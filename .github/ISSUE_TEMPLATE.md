@@ -6,4 +6,4 @@ For bugs, please include the following:
 
 For features, please specify at least minimal requirements, e.g.:
 
-* "As a 
+* "As a user, I want a notification badge showing unread count, so I c
