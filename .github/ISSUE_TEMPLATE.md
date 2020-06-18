@@ -11,3 +11,5 @@ For features, please specify at least minimal requirements, e.g.:
 * "As an admin, I want a management panel for users, so I can delete spurious accounts"
 
 ---
+
+_Issue description here…_
