@@ -2,4 +2,8 @@
 
 * [ ] added unit tests (or none needed)
 * [ ] written relevant docs (or none needed)
-* [ ] referenced any relevan
+* [ ] referenced any relevant issues (or none exist)
+
+### Guidelines
+
+Plea
