@@ -6,4 +6,4 @@
 
 ### Guidelines
 
-Please add a description of this Pull Request's motivation, sco
+Please add a description of this Pull Request's motivation, scope, outstanding issues or potential alternatives, reason
