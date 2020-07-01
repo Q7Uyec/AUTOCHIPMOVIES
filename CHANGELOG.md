@@ -9,4 +9,5 @@
 - passport-google-oauth update to 2.0.0 from 1.0.0
 - pg update to 7.9.0 from 6.1.2
 - prop-types update to 15.7.2 from 15.6.2
-- **react-redux
+- **react-redux update to 5.0.7 from 5.0.2**
+    - There are some known i
