@@ -18,4 +18,6 @@
 - socket.io update to 2.2.0 from 2.1.0
 
 
-### DevDependencie
+### DevDependencies
+- axios-mock-adatper update to 1.16.0 from 1.15.0
+- babel-e
