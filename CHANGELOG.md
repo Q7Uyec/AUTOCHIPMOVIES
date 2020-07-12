@@ -20,4 +20,5 @@
 
 ### DevDependencies
 - axios-mock-adatper update to 1.16.0 from 1.15.0
-- babel-e
+- babel-eslint update to 10.0.1 from 8.2.6
+- chai update to 4.2.0 from 3.5.0
