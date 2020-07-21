@@ -25,4 +25,5 @@
 - enzyme update to 3.9.0 from 3.0.0
 - enzyme-adapter-react-16 update to 1.12.1 from 1.0.0
 - eslint update to 5.16.0 from 4.19.1
-- eslint-config-fullstack update 
+- eslint-config-fullstack update to 6.0.0 from 5.1.0
+- eslint-config-prettier update to 4.1.0 from 
