@@ -42,4 +42,5 @@
 - @babel/plugin-syntax-import-meta update to 7.2.0 from 7.0.0-beta.54
 - @babel/polyfill update to 7.4.3 from 7.0.0-beta.55
 - @babel/preset-env update to 7.4.3 from 7.0.0-beta.55
-- @babel/preset-react update to 7.0
+- @babel/preset-react update to 7.0.0 from 7.0.0-beta.55
+- @babel/register updat
