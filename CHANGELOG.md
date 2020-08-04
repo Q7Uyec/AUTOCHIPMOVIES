@@ -51,4 +51,5 @@
 
 ## Wednesday, April 10th, 2019
 ### Dependencies 
-- r
+- react-redux update to 7.0.1 from 5.0.7
+    - Found o
