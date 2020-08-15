@@ -56,4 +56,6 @@
 - react update to 16.8.6 from 16.4.2
 - react-dom update to 16.8.6 from 16.4.2
 
-## Thursday, April 1
+## Thursday, April 11th, 2019
+### Dependencies 
+- sequelize update to 5.3.1 from 5
