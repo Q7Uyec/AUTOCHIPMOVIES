@@ -13,4 +13,7 @@ const productList = [
     id: 1,
     name: 'NYC Air',
     description:
-      'When you miss the secondhand smoke, sidewalk pee, and perpetual garbage day
+      'When you miss the secondhand smoke, sidewalk pee, and perpetual garbage day',
+    scent: 'Subway Chic',
+    elevation: 0,
+    quality: 'Could
