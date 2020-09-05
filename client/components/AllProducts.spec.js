@@ -13,4 +13,4 @@ const productList = [
     id: 1,
     name: 'NYC Air',
     description:
-      'When you miss the sec
+      'When you miss the secondhand smoke, sidewalk pee, and perpetual garbage day
