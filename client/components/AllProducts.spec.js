@@ -6,4 +6,9 @@ import  AllProducts from './AllProducts'
 import Product from './Product'
 
 const adapter = new Adapter()
-Enzyme.co
+Enzyme.configure({ adapter })
+
+const productList = [
+  {
+    id: 1,
+    n
