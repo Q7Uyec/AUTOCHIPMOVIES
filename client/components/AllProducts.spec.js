@@ -3,4 +3,7 @@ import React from 'react'
 import Enzyme, {shallow} from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 import  AllProducts from './AllProducts'
-import P
+import Product from './Product'
+
+const adapter = new Adapter()
+Enzyme.co
