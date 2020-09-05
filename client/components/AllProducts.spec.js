@@ -11,4 +11,6 @@ Enzyme.configure({ adapter })
 const productList = [
   {
     id: 1,
-    n
+    name: 'NYC Air',
+    description:
+      'When you miss the sec
