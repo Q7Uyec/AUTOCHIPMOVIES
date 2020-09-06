@@ -32,4 +32,5 @@ const productList = [
     scent: 'Fresh cut grass',
     elevation: 0,
     quality: 'best',
-    price: 10
+    price: 100,
+    purpose: 'Productivity and Loss of Appetite'
