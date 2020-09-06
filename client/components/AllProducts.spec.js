@@ -20,4 +20,4 @@ const productList = [
     price: 100,
     purpose: 'Productivity and Loss of Appetite',
     imageUrl:
-      'https://lh3.googleusercontent.com/GD
+      'https://lh3.googleusercontent.com/GDkUTO5OsGce_APmYDByGo9uSaEk6kFjfaJNBuBhCOemLf8-sG1Zq71aAg
