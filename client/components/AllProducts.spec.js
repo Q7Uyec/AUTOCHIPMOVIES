@@ -18,4 +18,6 @@ const productList = [
     elevation: 0,
     quality: 'Could be better',
     price: 100,
-    purpose: 'Productivity and Loss of
+    purpose: 'Productivity and Loss of Appetite',
+    imageUrl:
+      'https://lh3.googleusercontent.com/GD
