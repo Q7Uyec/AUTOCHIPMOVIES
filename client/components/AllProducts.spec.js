@@ -16,4 +16,6 @@ const productList = [
       'When you miss the secondhand smoke, sidewalk pee, and perpetual garbage day',
     scent: 'Subway Chic',
     elevation: 0,
-    quality: 'Could
+    quality: 'Could be better',
+    price: 100,
+    purpose: 'Productivity and Loss of
