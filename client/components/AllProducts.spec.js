@@ -27,4 +27,6 @@ const productList = [
   {
     id: 2,
     name: 'Fresh',
-    descripti
+    description:
+      'When you miss the fresh smell of clean ',
+    scent: 'Fresh
