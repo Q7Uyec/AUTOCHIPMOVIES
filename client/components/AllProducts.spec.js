@@ -29,4 +29,7 @@ const productList = [
     name: 'Fresh',
     description:
       'When you miss the fresh smell of clean ',
-    scent: 'Fresh
+    scent: 'Fresh cut grass',
+    elevation: 0,
+    quality: 'best',
+    price: 10
