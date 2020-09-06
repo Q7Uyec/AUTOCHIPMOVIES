@@ -22,4 +22,9 @@ const productList = [
     imageUrl:
       'https://lh3.googleusercontent.com/GDkUTO5OsGce_APmYDByGo9uSaEk6kFjfaJNBuBhCOemLf8-sG1Zq71aAgNjChb3Am8',
     molecularComposition: 'CO2',
-    stock: 
+    stock: 15
+  },
+  {
+    id: 2,
+    name: 'Fresh',
+    descripti
