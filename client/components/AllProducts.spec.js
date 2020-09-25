@@ -42,4 +42,7 @@ const productList = [
   {
     id: 3,
     name: 'Sea Air',
-    descripti
+    description:
+      'When you miss the seaside',
+    scent: 'Salty',
+  
