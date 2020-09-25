@@ -45,4 +45,7 @@ const productList = [
     description:
       'When you miss the seaside',
     scent: 'Salty',
-  
+    elevation: 0,
+    quality: 'nice',
+    price: 100,
+    purpose: 
