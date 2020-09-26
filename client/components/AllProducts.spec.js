@@ -48,4 +48,6 @@ const productList = [
     elevation: 0,
     quality: 'nice',
     price: 100,
-    purpose: 
+    purpose: 'makes you lethargic',
+    imageUrl:
+      'https://lh3.goo
