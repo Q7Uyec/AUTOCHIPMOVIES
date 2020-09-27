@@ -50,4 +50,6 @@ const productList = [
     price: 100,
     purpose: 'makes you lethargic',
     imageUrl:
-      'https://lh3.googleusercontent.com/GDkUTO5OsGce_APmYDByGo9uSaEk6kFjfaJNBuBhCOemLf8-sG1Z
+      'https://lh3.googleusercontent.com/GDkUTO5OsGce_APmYDByGo9uSaEk6kFjfaJNBuBhCOemLf8-sG1Zq71aAgNjChb3Am8',
+    molecularComposition: 'CO2',
+    
