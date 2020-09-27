@@ -50,4 +50,4 @@ const productList = [
     price: 100,
     purpose: 'makes you lethargic',
     imageUrl:
-      'https://lh3.goo
+      'https://lh3.googleusercontent.com/GDkUTO5OsGce_APmYDByGo9uSaEk6kFjfaJNBuBhCOemLf8-sG1Z
