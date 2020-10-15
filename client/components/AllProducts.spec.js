@@ -56,4 +56,6 @@ const productList = [
   }
 ]
 
-//Need some help with understanding t
+//Need some help with understanding this testing
+xdescribe('AllProducts Component', () => {
+  let 
