@@ -58,4 +58,7 @@ const productList = [
 
 //Need some help with understanding this testing
 xdescribe('AllProducts Component', () => {
-  let 
+  let allProductsWrapper
+
+  beforeEach(() => {
+    allProdu
