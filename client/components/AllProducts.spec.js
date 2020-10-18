@@ -62,4 +62,5 @@ xdescribe('AllProducts Component', () => {
 
   beforeEach(() => {
     allProductsWrapper = shallow(<AllProducts />)
-    if (allProductsWrapper.instance().c
+    if (allProductsWrapper.instance().componentDidMount) {
+      allProductsWrapper.instance().component
