@@ -67,4 +67,5 @@ xdescribe('AllProducts Component', () => {
     }
   })
 
-  it('renders the <Product /> compo
+  it('renders the <Product /> component based on the state', () => {
+    allProductsWrapper.setSta
