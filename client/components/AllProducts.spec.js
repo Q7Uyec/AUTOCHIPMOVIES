@@ -68,4 +68,5 @@ xdescribe('AllProducts Component', () => {
   })
 
   it('renders the <Product /> component based on the state', () => {
-    allProductsWrapper.setSta
+    allProductsWrapper.setState({ allproducts: productList })
+    expect(allProductsWrappe
