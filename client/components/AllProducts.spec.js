@@ -71,4 +71,4 @@ xdescribe('AllProducts Component', () => {
     allProductsWrapper.setState({ allproducts: productList })
     expect(allProductsWrapper.find(Product)).to.have.length(3)
     
-    con
+    const secondProduct = allProductsWrapper.f
