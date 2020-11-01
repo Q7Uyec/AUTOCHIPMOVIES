@@ -69,4 +69,6 @@ xdescribe('AllProducts Component', () => {
 
   it('renders the <Product /> component based on the state', () => {
     allProductsWrapper.setState({ allproducts: productList })
-    expect(allProductsWrappe
+    expect(allProductsWrapper.find(Product)).to.have.length(3)
+    
+    con
