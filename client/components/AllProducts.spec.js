@@ -71,4 +71,5 @@ xdescribe('AllProducts Component', () => {
     allProductsWrapper.setState({ allproducts: productList })
     expect(allProductsWrapper.find(Product)).to.have.length(3)
     
-    const secondProduct = allProductsWrapper.f
+    const secondProduct = allProductsWrapper.find(Product).at(1)
+    // eslint-disable-next-line no-un
