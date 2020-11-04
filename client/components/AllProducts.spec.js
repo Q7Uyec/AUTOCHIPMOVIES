@@ -72,4 +72,5 @@ xdescribe('AllProducts Component', () => {
     expect(allProductsWrapper.find(Product)).to.have.length(3)
     
     const secondProduct = allProductsWrapper.find(Product).at(1)
-    // eslint-disable-next-line no-un
+    // eslint-disable-next-line no-unused-expressions
+    expect(secondProduct.equals(<Produ
