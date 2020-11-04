@@ -73,4 +73,6 @@ xdescribe('AllProducts Component', () => {
     
     const secondProduct = allProductsWrapper.find(Product).at(1)
     // eslint-disable-next-line no-unused-expressions
-    expect(secondProduct.equals(<Produ
+    expect(secondProduct.equals(<Product product={productList[1]} />)).to.be.true
+  })
+})
