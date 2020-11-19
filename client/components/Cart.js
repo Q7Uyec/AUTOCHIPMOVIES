@@ -3,4 +3,6 @@ import {connect} from 'react-redux'
 import {
   getCartThunk,
   deleteItemThunk,
-  changeQuant
+  changeQuantThunk
+} from '../reducers/CartReducer'
+import CartItem fro
