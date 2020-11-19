@@ -5,4 +5,8 @@ import {
   deleteItemThunk,
   changeQuantThunk
 } from '../reducers/CartReducer'
-import CartItem fro
+import CartItem from './CartItem'
+
+class Cart extends Component {
+  constructor() {
+  
