@@ -11,4 +11,7 @@ class Cart extends Component {
   constructor() {
     super()
     this.removeItem = this.removeItem.bind(this)
-    thi
+    this.changeQuant = this.changeQuant.bind(this)
+  }
+
+  comp
