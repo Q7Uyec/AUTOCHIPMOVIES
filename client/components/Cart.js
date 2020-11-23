@@ -9,4 +9,6 @@ import CartItem from './CartItem'
 
 class Cart extends Component {
   constructor() {
-  
+    super()
+    this.removeItem = this.removeItem.bind(this)
+    thi
