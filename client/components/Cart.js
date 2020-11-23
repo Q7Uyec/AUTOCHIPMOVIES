@@ -14,4 +14,5 @@ class Cart extends Component {
     this.changeQuant = this.changeQuant.bind(this)
   }
 
-  comp
+  componentDidMount() {
+    this.props.getCartThunk(this.pr
