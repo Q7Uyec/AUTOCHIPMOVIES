@@ -19,4 +19,7 @@ class Cart extends Component {
   }
 
   removeItem = product => {
-    this.props.deleteItemTh
+    this.props.deleteItemThunk(product, this.props.user)
+  }
+
+  changeQuant = (i
