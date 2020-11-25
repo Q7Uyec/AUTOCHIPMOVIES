@@ -15,4 +15,8 @@ class Cart extends Component {
   }
 
   componentDidMount() {
-    this.props.getCartThunk(this.pr
+    this.props.getCartThunk(this.props.user)
+  }
+
+  removeItem = product => {
+    this.props.deleteItemTh
