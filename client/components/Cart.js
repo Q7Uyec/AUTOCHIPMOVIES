@@ -22,4 +22,5 @@ class Cart extends Component {
     this.props.deleteItemThunk(product, this.props.user)
   }
 
-  changeQuant = (i
+  changeQuant = (itemId, change) => {
+    this.props.changeQuantThunk
