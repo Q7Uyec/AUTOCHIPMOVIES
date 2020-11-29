@@ -23,4 +23,8 @@ class Cart extends Component {
   }
 
   changeQuant = (itemId, change) => {
-    this.props.changeQuantThunk
+    this.props.changeQuantThunk(itemId, change, this.props.user)
+  }
+
+  render() {
+    con
