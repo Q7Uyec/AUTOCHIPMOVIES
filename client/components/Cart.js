@@ -27,4 +27,5 @@ class Cart extends Component {
   }
 
   render() {
-    con
+    const {cart, user} = this.props
+    const cartSeria
