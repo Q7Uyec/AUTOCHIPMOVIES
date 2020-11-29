@@ -30,4 +30,7 @@ class Cart extends Component {
     const {cart, user} = this.props
     const cartSerialized = JSON.stringify(cart)
     const cartDeserialized = JSON.parse(localStorage.getItem('cart'))
-    localStora
+    localStorage.setItem('cart', cartSerialized)
+
+    if (!cart.length)
+  
