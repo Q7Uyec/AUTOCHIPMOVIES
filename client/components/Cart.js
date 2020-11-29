@@ -33,4 +33,6 @@ class Cart extends Component {
     localStorage.setItem('cart', cartSerialized)
 
     if (!cart.length)
-  
+      return (
+        <div id="container">
+    
