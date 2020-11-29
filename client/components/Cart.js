@@ -35,4 +35,6 @@ class Cart extends Component {
     if (!cart.length)
       return (
         <div id="container">
-    
+          <h1>
+            Your Cart<br />
+          </h1>No items i
