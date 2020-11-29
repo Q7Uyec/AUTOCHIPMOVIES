@@ -28,4 +28,5 @@ class Cart extends Component {
 
   render() {
     const {cart, user} = this.props
-    const cartSeria
+    const cartSerialized = JSON.stringify(cart)
+    const cartDeserialize
