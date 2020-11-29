@@ -29,4 +29,5 @@ class Cart extends Component {
   render() {
     const {cart, user} = this.props
     const cartSerialized = JSON.stringify(cart)
-    const cartDeserialize
+    const cartDeserialized = JSON.parse(localStorage.getItem('cart'))
+    localStora
