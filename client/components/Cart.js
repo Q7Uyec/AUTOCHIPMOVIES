@@ -37,4 +37,9 @@ class Cart extends Component {
         <div id="container">
           <h1>
             Your Cart<br />
-          </h1>No items i
+          </h1>No items in your cart.
+        </div>
+      )
+
+    return (
+      <d
