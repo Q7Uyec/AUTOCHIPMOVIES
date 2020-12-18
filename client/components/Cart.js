@@ -47,4 +47,6 @@ class Cart extends Component {
         <br />
         <h5>You have ordered:</h5>
         <ul>
-         
+          {cart.map(cartItem => (
+            <CartItem
+             
