@@ -49,4 +49,6 @@ class Cart extends Component {
         <ul>
           {cart.map(cartItem => (
             <CartItem
-             
+              key={cartItem.id}
+              cartItem={cartItem}
+  
