@@ -53,4 +53,5 @@ class Cart extends Component {
               cartItem={cartItem}
               removeItem={this.removeItem}
               changeQuant={this.changeQuant}
-              getCartTh
+              getCartThunk={this.props.getCartThunk}
+              user={user}
