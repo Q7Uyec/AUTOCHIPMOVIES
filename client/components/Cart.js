@@ -52,4 +52,5 @@ class Cart extends Component {
               key={cartItem.id}
               cartItem={cartItem}
               removeItem={this.removeItem}
-              c
+              changeQuant={this.changeQuant}
+              getCartTh
