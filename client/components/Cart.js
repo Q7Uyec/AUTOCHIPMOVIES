@@ -69,4 +69,5 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  getCartThunk:
+  getCartThunk: user => dispatch(getCartThunk(user)),
+  deleteItemThunk: (
