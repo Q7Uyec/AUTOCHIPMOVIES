@@ -68,4 +68,5 @@ const mapStateToProps = state => ({
   user: state.Users.id
 })
 
-const 
+const mapDispatchToProps = dispatch => ({
+  getCartThunk:
