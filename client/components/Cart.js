@@ -59,4 +59,9 @@ class Cart extends Component {
           ))}
         </ul>
       </div>
- 
+    )
+  }
+}
+
+const mapStateToProps = state => ({
+  cart: sta
