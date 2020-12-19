@@ -55,3 +55,8 @@ class Cart extends Component {
               changeQuant={this.changeQuant}
               getCartThunk={this.props.getCartThunk}
               user={user}
+            />
+          ))}
+        </ul>
+      </div>
+ 
