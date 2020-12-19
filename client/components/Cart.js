@@ -51,4 +51,5 @@ class Cart extends Component {
             <CartItem
               key={cartItem.id}
               cartItem={cartItem}
-  
+              removeItem={this.removeItem}
+              c
