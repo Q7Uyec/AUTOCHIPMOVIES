@@ -64,4 +64,8 @@ class Cart extends Component {
 }
 
 const mapStateToProps = state => ({
-  cart: sta
+  cart: state.Cart.cart,
+  user: state.Users.id
+})
+
+const 
