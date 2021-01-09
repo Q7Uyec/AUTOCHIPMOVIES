@@ -72,4 +72,7 @@ const mapDispatchToProps = dispatch => ({
   getCartThunk: user => dispatch(getCartThunk(user)),
   deleteItemThunk: (itemId, user) => dispatch(deleteItemThunk(itemId, user)),
   changeQuantThunk: (itemId, change, user) =>
-    dispat
+    dispatch(changeQuantThunk(itemId, change, user))
+})
+
+export de
