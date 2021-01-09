@@ -75,4 +75,4 @@ const mapDispatchToProps = dispatch => ({
     dispatch(changeQuantThunk(itemId, change, user))
 })
 
-export de
+export default connect(mapStateToProps, mapDispatchToProps
