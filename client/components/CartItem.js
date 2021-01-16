@@ -14,4 +14,5 @@ const CartItem = props => {
   return (
     <div id="cartItemDiv">
       <div>
-        <Link to={`pro
+        <Link to={`products/${product.id}`}>
+          <img src={product.imgUrl} wi
