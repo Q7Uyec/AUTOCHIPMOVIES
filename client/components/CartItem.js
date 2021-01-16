@@ -12,4 +12,6 @@ const CartItem = props => {
   }
 
   return (
- 
+    <div id="cartItemDiv">
+      <div>
+        <Link to={`pro
