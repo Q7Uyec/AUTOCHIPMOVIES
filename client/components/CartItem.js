@@ -22,4 +22,6 @@ const CartItem = props => {
         <p>
           <Link to={`products/${product.id}`}>{product.name}</Link>
         </p>
-        <div
+        <div id="priceQuantDiv">
+          <div id="priceDiv">
+   
