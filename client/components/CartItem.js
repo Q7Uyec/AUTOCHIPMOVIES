@@ -8,4 +8,8 @@ const CartItem = props => {
 
   if (!product) {
     props.getCartThunk(props.user)
+    return <div>Loading...</div>
+  }
+
+  return (
  
