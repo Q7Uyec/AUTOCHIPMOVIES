@@ -20,4 +20,6 @@ const CartItem = props => {
       </div>
       <div>
         <p>
-          <Link to={`products/${produ
+          <Link to={`products/${product.id}`}>{product.name}</Link>
+        </p>
+        <div
