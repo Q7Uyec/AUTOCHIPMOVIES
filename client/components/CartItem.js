@@ -18,4 +18,6 @@ const CartItem = props => {
           <img src={product.imgUrl} width='100px' />
         </Link><br />
       </div>
-  
+      <div>
+        <p>
+          <Link to={`products/${produ
