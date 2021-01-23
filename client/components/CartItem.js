@@ -27,4 +27,6 @@ const CartItem = props => {
             <p>Price: ${cartItem.pricePerItem * cartItem.quantity}</p>
           </div>
           <div>
-     
+            <p>Quantity: {quantity}</p>
+            <button
+   
