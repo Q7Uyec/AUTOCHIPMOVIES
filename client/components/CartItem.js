@@ -30,4 +30,5 @@ const CartItem = props => {
             <p>Quantity: {quantity}</p>
             <button
               type="button"
-              onClick={(
+              onClick={() => {
+                props.changeQuant(cartItem.i
