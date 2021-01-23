@@ -43,4 +43,7 @@ const CartItem = props => {
               }}
             >
               -
-            </button
+            </button>
+          </div>
+        </div>
+        {/*end price q
