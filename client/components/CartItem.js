@@ -35,4 +35,6 @@ const CartItem = props => {
               }}
             >
               +
-    
+            </button>
+            <button
+        
