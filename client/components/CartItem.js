@@ -40,4 +40,7 @@ const CartItem = props => {
               type="button"
               onClick={() => {
                 props.changeQuant(cartItem.id, 'dec')
-              }
+              }}
+            >
+              -
+            </button
