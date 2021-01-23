@@ -29,4 +29,5 @@ const CartItem = props => {
           <div>
             <p>Quantity: {quantity}</p>
             <button
-   
+              type="button"
+              onClick={(
