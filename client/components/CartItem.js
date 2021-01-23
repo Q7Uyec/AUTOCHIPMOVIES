@@ -37,4 +37,6 @@ const CartItem = props => {
               +
             </button>
             <button
-        
+              type="button"
+              onClick={() => {
+         
