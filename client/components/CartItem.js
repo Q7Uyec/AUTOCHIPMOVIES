@@ -46,4 +46,7 @@ const CartItem = props => {
             </button>
           </div>
         </div>
-        {/*end price q
+        {/*end price quant div*/}
+        <button
+          type="button"
+       
