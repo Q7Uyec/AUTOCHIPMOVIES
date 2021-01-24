@@ -49,4 +49,5 @@ const CartItem = props => {
         {/*end price quant div*/}
         <button
           type="button"
-       
+          onClick={() => {
+            props.removeItem(
