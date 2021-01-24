@@ -50,4 +50,7 @@ const CartItem = props => {
         <button
           type="button"
           onClick={() => {
-            props.removeItem(
+            props.removeItem(cartItem.id)
+          }}
+        >
+          De
