@@ -53,4 +53,8 @@ const CartItem = props => {
             props.removeItem(cartItem.id)
           }}
         >
-          De
+          Delete From Cart
+        </button>
+      </div>
+    </div>
+  )
