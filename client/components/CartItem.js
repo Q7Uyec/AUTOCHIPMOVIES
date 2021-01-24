@@ -58,3 +58,6 @@ const CartItem = props => {
       </div>
     </div>
   )
+}
+
+export default CartItem
