@@ -4,4 +4,7 @@ import {connect} from 'react-redux'
 import CartItem from './CartItem'
 import Stripe from './Stripe'
 import {createOrderThunk} from '../reducers/OrderReducer'
-import {Link} from 'react-route
+import {Link} from 'react-router-dom'
+
+class Checkout extends Component {
+  constructo
