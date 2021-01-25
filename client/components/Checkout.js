@@ -3,4 +3,5 @@ import {getCartThunk} from '../reducers/CartReducer'
 import {connect} from 'react-redux'
 import CartItem from './CartItem'
 import Stripe from './Stripe'
-import {createOrderThunk} from '../reducers/OrderRe
+import {createOrderThunk} from '../reducers/OrderReducer'
+import {Link} from 'react-route
