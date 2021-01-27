@@ -7,4 +7,6 @@ import {createOrderThunk} from '../reducers/OrderReducer'
 import {Link} from 'react-router-dom'
 
 class Checkout extends Component {
-  constructo
+  constructor() {
+    super()
+    this.placeOrder = this.placeOr
