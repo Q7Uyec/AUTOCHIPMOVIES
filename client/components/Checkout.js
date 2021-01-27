@@ -9,4 +9,8 @@ import {Link} from 'react-router-dom'
 class Checkout extends Component {
   constructor() {
     super()
-    this.placeOrder = this.placeOr
+    this.placeOrder = this.placeOrder.bind(this)
+  }
+
+  componentDidMount() {
+    this.props
