@@ -13,4 +13,8 @@ class Checkout extends Component {
   }
 
   componentDidMount() {
-    this.props
+    this.props.getCartThunk(this.props.user)
+  }
+
+  placeOrder() {
+    this.props.cr
