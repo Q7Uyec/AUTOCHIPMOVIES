@@ -17,4 +17,8 @@ class Checkout extends Component {
   }
 
   placeOrder() {
-    this.props.cr
+    this.props.createOrderThunk(this.props.user)
+  }
+
+  render() {
+    const {c
