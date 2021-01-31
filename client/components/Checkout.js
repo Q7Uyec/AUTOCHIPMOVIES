@@ -21,4 +21,7 @@ class Checkout extends Component {
   }
 
   render() {
-    const {c
+    const {cart} = this.props
+
+    return (
+      <div id="container
