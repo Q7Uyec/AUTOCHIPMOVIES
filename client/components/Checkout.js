@@ -31,4 +31,5 @@ class Checkout extends Component {
           {cart.map(cartItem => (
             <CartItem
               key={cartItem.id}
-  
+              cartItem={cartItem}
+              remove
