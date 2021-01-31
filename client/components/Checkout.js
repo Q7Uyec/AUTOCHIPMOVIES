@@ -26,4 +26,7 @@ class Checkout extends Component {
     return (
       <div id="container">
         <h1>Checkout</h1>
-        <h1>Let's Review your orde
+        <h1>Let's Review your order!</h1>
+        <ul>
+          {cart.map(cartItem => (
+ 
