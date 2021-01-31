@@ -24,4 +24,6 @@ class Checkout extends Component {
     const {cart} = this.props
 
     return (
-      <div id="container
+      <div id="container">
+        <h1>Checkout</h1>
+        <h1>Let's Review your orde
