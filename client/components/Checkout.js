@@ -29,4 +29,6 @@ class Checkout extends Component {
         <h1>Let's Review your order!</h1>
         <ul>
           {cart.map(cartItem => (
- 
+            <CartItem
+              key={cartItem.id}
+  
