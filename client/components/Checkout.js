@@ -32,4 +32,5 @@ class Checkout extends Component {
             <CartItem
               key={cartItem.id}
               cartItem={cartItem}
-              remove
+              removeItem={this.removeItem}
+              changeQuant={this.changeQ
