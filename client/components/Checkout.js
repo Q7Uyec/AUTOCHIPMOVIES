@@ -33,4 +33,5 @@ class Checkout extends Component {
               key={cartItem.id}
               cartItem={cartItem}
               removeItem={this.removeItem}
-              changeQuant={this.changeQ
+              changeQuant={this.changeQuant}
+              getCartThunk={this.props.g
