@@ -34,4 +34,7 @@ class Checkout extends Component {
               cartItem={cartItem}
               removeItem={this.removeItem}
               changeQuant={this.changeQuant}
-              getCartThunk={this.props.g
+              getCartThunk={this.props.getCartThunk}
+            />
+          ))}
+        <
