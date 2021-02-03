@@ -39,4 +39,5 @@ class Checkout extends Component {
           ))}
         </ul>
         <h3>
-          Subtotal: ${this.pro
+          Subtotal: ${this.props.cart.reduce((acc, curr) => {
+            return (
