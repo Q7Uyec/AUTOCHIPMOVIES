@@ -40,4 +40,6 @@ class Checkout extends Component {
         </ul>
         <h3>
           Subtotal: ${this.props.cart.reduce((acc, curr) => {
-            return (
+            return (acc += curr.quantity * curr.pricePerItem)
+          }, 0)}
+ 
