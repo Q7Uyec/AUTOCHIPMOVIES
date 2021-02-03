@@ -37,4 +37,6 @@ class Checkout extends Component {
               getCartThunk={this.props.getCartThunk}
             />
           ))}
-        <
+        </ul>
+        <h3>
+          Subtotal: ${this.pro
