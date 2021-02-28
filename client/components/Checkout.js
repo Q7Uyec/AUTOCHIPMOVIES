@@ -46,4 +46,7 @@ class Checkout extends Component {
         <Link
           to="/orderComplete"
           type="button"
-          onClick={() => this
+          onClick={() => this.placeOrder()}
+        >
+          Place Order
+        </
