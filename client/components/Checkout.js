@@ -49,4 +49,5 @@ class Checkout extends Component {
           onClick={() => this.placeOrder()}
         >
           Place Order
-        </
+        </Link>
+        <Stripe amount={this.props.subtotal} onSubmi
