@@ -44,4 +44,6 @@ class Checkout extends Component {
           }, 0)}
         </h3>
         <Link
-          to="/orderComplet
+          to="/orderComplete"
+          type="button"
+          onClick={() => this
