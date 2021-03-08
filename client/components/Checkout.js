@@ -52,4 +52,10 @@ class Checkout extends Component {
         </Link>
         <Stripe amount={this.props.subtotal} onSubmit={this.handleSubmit} />
         <br />
-        <br 
+        <br />
+      </div>
+    )
+  }
+}
+
+const mapStateToProps = state
