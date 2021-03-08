@@ -60,4 +60,8 @@ class Checkout extends Component {
 
 const mapStateToProps = state => ({
   cart: state.Cart.cart,
-  user: state.Use
+  user: state.Users.id,
+  order: state.Order.order[0]
+})
+
+const mapDispatchToProps 
