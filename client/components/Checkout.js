@@ -66,4 +66,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   getCartThunk: user => dispatch(getCartThunk(user)),
-  createOrderThunk: user => dispatch(createOrder
+  createOrderThunk: user => dispatch(createOrderThunk(user))
+})
+
+export default connect(mapStateToProps, mapDispatchToProp
