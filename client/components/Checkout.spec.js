@@ -1,4 +1,5 @@
 // import chai, {expect} from 'chai'
 // import React from 'react'
 // import Enzyme, {shallow} from 'enzyme'
-// imp
+// import EnzymeAdapter from 'enzyme-adapter-react-16'
+// impo
