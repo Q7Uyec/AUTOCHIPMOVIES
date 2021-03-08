@@ -7,4 +7,7 @@
 
 // chai.use(sinonChai)
 
-// Enzyme.configure({adapter: new 
+// Enzyme.configure({adapter: new EnzymeAdapter()})
+
+// xdescribe('<Checkout>', () => {
+/
