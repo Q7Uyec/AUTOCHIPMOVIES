@@ -58,4 +58,6 @@ class Checkout extends Component {
   }
 }
 
-const mapStateToProps = state
+const mapStateToProps = state => ({
+  cart: state.Cart.cart,
+  user: state.Use
