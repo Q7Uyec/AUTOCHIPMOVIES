@@ -69,4 +69,4 @@ const mapDispatchToProps = dispatch => ({
   createOrderThunk: user => dispatch(createOrderThunk(user))
 })
 
-export default connect(mapStateToProps, mapDispatchToProp
+export default connect(mapStateToProps, mapDispatchToProps)(Checkout)
