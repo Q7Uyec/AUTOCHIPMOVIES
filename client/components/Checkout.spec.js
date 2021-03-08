@@ -10,4 +10,6 @@
 // Enzyme.configure({adapter: new EnzymeAdapter()})
 
 // xdescribe('<Checkout>', () => {
-/
+//   let checkout = [{item: 'OceanAir', price: 100}]
+
+//   let chec
