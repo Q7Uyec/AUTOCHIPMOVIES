@@ -64,4 +64,5 @@ const mapStateToProps = state => ({
   order: state.Order.order[0]
 })
 
-const mapDispatchToProps 
+const mapDispatchToProps = dispatch => ({
+  getCartThunk: user => dispatch(getCartThunk(
