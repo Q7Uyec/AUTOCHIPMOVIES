@@ -12,4 +12,4 @@
 // xdescribe('<Checkout>', () => {
 //   let checkout = [{item: 'OceanAir', price: 100}]
 
-//   let chec
+//   let checkoutWrapper = shallow(<Checkout checkout={checkout} tota
