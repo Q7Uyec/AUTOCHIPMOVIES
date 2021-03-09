@@ -12,4 +12,5 @@
 // xdescribe('<Checkout>', () => {
 //   let checkout = [{item: 'OceanAir', price: 100}]
 
-//   let checkoutWrapper = shallow(<Checkout checkout={checkout} tota
+//   let checkoutWrapper = shallow(<Checkout checkout={checkout} total="100" />)
+//   it('has a <h3> that renders props.tot
