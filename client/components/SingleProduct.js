@@ -39,3 +39,45 @@ class SingleProduct extends Component {
         <hr />
         <p>
           <b>Quality:</b> {product.quality}{' '}
+        </p>
+        <hr />
+        <p>
+          <b>Purpose:</b> {product.purpose}{' '}
+        </p>
+        <hr />
+        <p>
+          <b>Molecular Composition:</b> {product.molecularComposition}{' '}
+        </p>
+        <hr />
+        <h1>Price Per Unit: ${product.price} </h1>
+        <div>
+          <button
+            type="button"
+            className="addBtn"
+            onClick={() => {
+              this.handleClick(product)
+            }}
+          >
+            add to cart
+          </button>
+        </div>
+        <br />
+      </div>
+    )
+  }
+}
+const mapStateToProps = state => {
+  return {
+    selectedProduct: state.Products.selectedProduct
+  }
+}
+
+const mapDispatchToProps = (dispatch, ownProps) => {
+  const productId = Number(ownProps.match.params.id)
+  return {
+    getProduct: () => dispatch(getProduct(productId)),
+    addToCartThunk: product => dispatch(addToCartThunk(product))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(SingleProduct)
