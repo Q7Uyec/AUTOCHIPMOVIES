@@ -11,4 +11,5 @@ describe('Single Product', () => {
   describe('should render the product details', () => {
     let  SingleProductWrapper
     
-    beforeEach('cre
+    beforeEach('create <Singleproduct /> wrapper', () => {
+      //  let prod
