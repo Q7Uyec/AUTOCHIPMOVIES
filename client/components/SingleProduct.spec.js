@@ -5,4 +5,6 @@ import Adapter from 'enzyme-adapter-react-16'
 import {SingleProduct} from './SingleProduct'
 
 
-Enzyme.config
+Enzyme.configure({ adapter: new Adapter() })
+
+describe('Single Produc
