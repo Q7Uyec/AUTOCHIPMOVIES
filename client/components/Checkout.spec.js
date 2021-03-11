@@ -14,4 +14,6 @@
 
 //   let checkoutWrapper = shallow(<Checkout checkout={checkout} total="100" />)
 //   it('has a <h3> that renders props.total', () => {
-//     expect(checkoutWrapper.find(
+//     expect(checkoutWrapper.find('h3').text()).to.be.equal('100')
+//   })
+// })
