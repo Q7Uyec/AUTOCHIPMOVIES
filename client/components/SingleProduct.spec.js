@@ -12,4 +12,4 @@ describe('Single Product', () => {
     let  SingleProductWrapper
     
     beforeEach('create <Singleproduct /> wrapper', () => {
-      //  let product = { id: 1, name: 'NYC Air', description: 'When you miss the s
+      //  let product = { id: 1, name: 'NYC Air', description: 'When you miss the secondhand smoke, sidewalk pee, and perpetual garbage day', scent: 
