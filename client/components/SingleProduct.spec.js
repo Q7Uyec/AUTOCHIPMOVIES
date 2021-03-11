@@ -7,4 +7,5 @@ import {SingleProduct} from './SingleProduct'
 
 Enzyme.configure({ adapter: new Adapter() })
 
-describe('Single Produc
+describe('Single Product', () => {
+  describe('should render the product details', 
