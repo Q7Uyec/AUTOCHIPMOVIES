@@ -4,4 +4,7 @@ import {expect} from 'chai'
 import React from 'react'
 import enzyme, {shallow} from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
-import {UserHome} from './UserH
+import {UserHome} from './UserHome'
+
+const adapter = new Adapter()
+enzyme.confi
