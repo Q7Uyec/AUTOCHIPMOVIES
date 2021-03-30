@@ -10,4 +10,7 @@ const adapter = new Adapter()
 enzyme.configure({adapter})
 
 describe('UserHome', () => {
-  let us
+  let userHome
+
+  beforeEach(() => {
+    userHome = shallow(<
