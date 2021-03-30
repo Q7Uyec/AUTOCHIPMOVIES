@@ -98,3 +98,33 @@ class Splash extends Component {
               accumsan pretium dolor vel convallis. Aliquam erat volutpat.
             </p>
             <a className="arrow arrow-prev" href="#item-7" />
+            <a className="arrow arrow-next" href="#item-9" />
+          </div>
+          <div className="carousel-item item-9">
+            <h2>Cloud 9</h2>
+            <h4>Ocean Air</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              accumsan pretium dolor vel convallis. Aliquam erat volutpat.
+            </p>
+            <a className="arrow arrow-prev" href="#item-8" />
+            <a className="arrow arrow-next" href="#item-1" />
+          </div>
+        </div>
+        <br />
+        <p>
+          rem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          accumsan pretium dolor vel convallis. Aliquam erat volutpatrem ipsum
+          dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium
+          dolor vel convallis. Aliquam erat volutpatrem ipsum dolor sit amet,
+          consectetur adipiscing elit. Vivamus accumsan pretium dolor vel
+          convallis. Aliquam erat volutpatrem ipsum dolor sit amet, consectetur
+          adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam
+          erat volutpat
+        </p>
+      </div>
+    )
+  }
+}
+
+export default Splash
