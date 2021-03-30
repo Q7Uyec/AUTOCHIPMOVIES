@@ -17,4 +17,4 @@ describe('Single Product', () => {
       SingleProductWrapper = shallow(<SingleProduct name ="NYC AIR"/>)
     })
     it('renders the product name in an h3', () => {
-  
+      expect(SingleProductWrapper.find('h3').text(
