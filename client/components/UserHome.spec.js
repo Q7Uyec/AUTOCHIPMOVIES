@@ -7,4 +7,7 @@ import Adapter from 'enzyme-adapter-react-16'
 import {UserHome} from './UserHome'
 
 const adapter = new Adapter()
-enzyme.confi
+enzyme.configure({adapter})
+
+describe('UserHome', () => {
+  let us
