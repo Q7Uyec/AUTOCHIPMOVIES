@@ -13,4 +13,7 @@ describe('UserHome', () => {
   let userHome
 
   beforeEach(() => {
-    userHome = shallow(<
+    userHome = shallow(<UserHome firstName="cody" />)
+  })
+
+  it('rende
