@@ -17,4 +17,4 @@ describe('UserHome', () => {
   })
 
   it('renders the First Name in an h3', () => {
-    expec
+    expect(userHome.find('h3').text()).to.be.equal('Welcome back, cody!
