@@ -16,4 +16,5 @@ describe('UserHome', () => {
     userHome = shallow(<UserHome firstName="cody" />)
   })
 
-  it('rende
+  it('renders the First Name in an h3', () => {
+    expec
