@@ -43,3 +43,52 @@ const AuthForm = props => {
                 <small>City</small>
               </label>
               <input name="city" type="text" className="input" />
+            </div>
+            <div>
+              <label htmlFor="state" className="label">
+                <small>State</small>
+              </label>
+              <input name="state" type="text" className="input" />
+            </div>
+            <div>
+              <label htmlFor="country" className="label">
+                <small>Country</small>
+              </label>
+              <input name="country" type="text" className="input" />
+            </div> */}
+              {/* <div>
+              <label htmlFor="zipCode" className="label">
+                <small>Zip Code</small>
+              </label>
+              <input name="zipCode" type="text" className="input" />
+            </div> */}
+            </div>
+          )}
+          <div>
+            {name === 'login' && (
+              <h1>
+                Log in here! <br />
+              </h1>
+            )}
+            <label htmlFor="email" className="label">
+              <small>Email</small>
+            </label>
+            <input name="email" type="text" className="input" />
+          </div>
+          <div>
+            <label htmlFor="password" className="label">
+              <small>Password</small>
+            </label>
+            <input name="password" type="password" className="input" />
+          </div>
+          <div>
+            <button className="sendBtn" type="submit">
+              {displayName}
+            </button>
+          </div>
+          {error && error.response && <div> {error.response.data} </div>}
+          <a href="/auth/google">{displayName} with Google</a>
+        </form>
+      </div>
+    </div>
+  )
