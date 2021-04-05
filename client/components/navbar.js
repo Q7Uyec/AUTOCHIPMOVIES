@@ -14,4 +14,5 @@ const Navbar = ({ handleClick, isLoggedIn, userId }) => {
             <Link to="/home">Home</Link>
             <Link to="/products">Products</Link>
             <Link to={`/${userId}/cart`}>
-              <img src="https
+              <img src="https://image.flaticon.com/icons/svg/2/2772.svg" />
+            </L
