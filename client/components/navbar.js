@@ -17,4 +17,7 @@ const Navbar = ({ handleClick, isLoggedIn, userId }) => {
               <img src="https://image.flaticon.com/icons/svg/2/2772.svg" />
             </Link> |
             <Link to={`/${userId}/checkout`}>Checkout</Link>
-            <a href="#" onClick={han
+            <a href="#" onClick={handleClick}>
+              Logout
+            </a>
+     
