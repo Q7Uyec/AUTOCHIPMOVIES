@@ -23,4 +23,5 @@ const Navbar = ({ handleClick, isLoggedIn, userId }) => {
           </div>
         ) : (
             <div>
-              {/* The navbar will show these l
+              {/* The navbar will show these links before you log in */}
+              <Link to="/pro
