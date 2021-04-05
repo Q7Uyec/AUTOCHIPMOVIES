@@ -4,4 +4,6 @@ import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { logout } from '../reducers/UserReducer'
 
-const Navbar =
+const Navbar = ({ handleClick, isLoggedIn, userId }) => {
+  return (
+    <div id="nav">
