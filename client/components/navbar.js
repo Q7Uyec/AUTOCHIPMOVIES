@@ -1,2 +1,3 @@
 import React from 'react'
-import PropTypes fr
+import PropTypes from 'prop-types'
+import { connect } from 're
