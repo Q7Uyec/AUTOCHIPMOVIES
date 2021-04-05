@@ -13,4 +13,5 @@ const Navbar = ({ handleClick, isLoggedIn, userId }) => {
             {/* The navbar will show these links after you log in */}
             <Link to="/home">Home</Link>
             <Link to="/products">Products</Link>
-         
+            <Link to={`/${userId}/cart`}>
+              <img src="https
