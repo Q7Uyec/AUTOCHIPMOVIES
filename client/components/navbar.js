@@ -7,3 +7,7 @@ import { logout } from '../reducers/UserReducer'
 const Navbar = ({ handleClick, isLoggedIn, userId }) => {
   return (
     <div id="nav">
+      <nav>
+        {isLoggedIn ? (
+          <div>
+ 
