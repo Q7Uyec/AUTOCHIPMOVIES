@@ -22,4 +22,5 @@ const Navbar = ({ handleClick, isLoggedIn, userId }) => {
             </a>
           </div>
         ) : (
-            <div
+            <div>
+              {/* The navbar will show these l
