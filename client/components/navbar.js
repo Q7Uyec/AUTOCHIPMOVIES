@@ -29,4 +29,5 @@ const Navbar = ({ handleClick, isLoggedIn, userId }) => {
             <Link to="/signup">Sign Up</Link> |
             <Link to="/cart">
                 <img src="https://image.flaticon.com/icons/svg/2/2772.svg" />
-       
+              </Link> |
+              <Link to="/checkout">Checkout</
