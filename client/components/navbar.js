@@ -30,4 +30,9 @@ const Navbar = ({ handleClick, isLoggedIn, userId }) => {
             <Link to="/cart">
                 <img src="https://image.flaticon.com/icons/svg/2/2772.svg" />
               </Link> |
-              <Link to="/checkout">Checkout</
+              <Link to="/checkout">Checkout</Link>
+            </div>
+          )}
+      </nav>
+
+      <div cl
