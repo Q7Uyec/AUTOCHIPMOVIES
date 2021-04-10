@@ -35,4 +35,4 @@ const Navbar = ({ handleClick, isLoggedIn, userId }) => {
           )}
       </nav>
 
-      <div cl
+      <div className="title"><img src="https://i.imgur.com/6vtsnVs.png"><
