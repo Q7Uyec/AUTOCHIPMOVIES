@@ -51,4 +51,7 @@ const mapState = state => {
   }
 }
 
-const mapDispatch
+const mapDispatch = dispatch => {
+  return {
+    handleClick() {
+  
