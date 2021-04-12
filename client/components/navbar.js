@@ -44,4 +44,6 @@ const Navbar = ({ handleClick, isLoggedIn, userId }) => {
 /**
  * CONTAINER
  */
-co
+const mapState = state => {
+  return {
+    isLoggedIn: !!
