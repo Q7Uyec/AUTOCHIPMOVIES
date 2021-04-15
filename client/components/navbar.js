@@ -54,4 +54,9 @@ const mapState = state => {
 const mapDispatch = dispatch => {
   return {
     handleClick() {
-  
+      dispatch(logout())
+    }
+  }
+}
+
+export
