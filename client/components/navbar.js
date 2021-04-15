@@ -62,4 +62,7 @@ const mapDispatch = dispatch => {
 export default connect(mapState, mapDispatch)(Navbar)
 
 /**
- * PROP 
+ * PROP TYPES
+ */
+Navbar.propTypes = {
+  handleClick: PropTypes
