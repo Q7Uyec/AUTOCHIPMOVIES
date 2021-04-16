@@ -1,2 +1,4 @@
 import React from 'react'
-import ReactDOM fro
+import ReactDOM from 'react-dom'
+import {Provider} from 'react-redux'
+impor
