@@ -65,4 +65,5 @@ export default connect(mapState, mapDispatch)(Navbar)
  * PROP TYPES
  */
 Navbar.propTypes = {
-  handleClick: PropTypes
+  handleClick: PropTypes.func.isRequired,
+  isLoggedIn: PropTypes.bool.isRequi
