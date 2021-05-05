@@ -67,3 +67,73 @@ export const addToCartThunk = (product, userId) => {
     }
   }
 }
+
+export const deleteItemThunk = (itemId, userId) => {
+  if (userId) {
+    return async dispatch => {
+      await axios.delete(`/api/users/${userId}/cart/${itemId}`)
+      dispatch(deleteItem(itemId))
+    }
+  } else {
+    return async dispatch => {
+      await axios.delete(`/api/cart/${itemId}`)
+      dispatch(deleteItem(itemId))
+    }
+  }
+}
+
+export const changeQuantThunk = (itemId, change, userId) => {
+  const bod = {
+    change
+  }
+
+  if (userId) {
+    return async dispatch => {
+      const {data} = await axios.put(`/api/users/${userId}/cart/${itemId}`, bod)
+      dispatch(changeQuant(itemId, data))
+    }
+  } else {
+    return async dispatch => {
+      const {data} = await axios.put(`/api/cart/${itemId}`, bod)
+      dispatch(changeQuant(itemId, data))
+    }
+  }
+}
+
+// export const clearCartThunk = (userId) => {
+//   if (userId) {
+
+//   }
+// }
+
+// reducer
+const cartReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case ADD_TO_CART:
+      if (state.cart.find(item => item.id === action.product.id)) {
+        return state
+      } else {
+        return {...state, cart: [...state.cart, action.product]}
+      }
+    case GET_CART:
+      return {...state, cart: action.data}
+    case DELETE_ITEM:
+      return {
+        ...state,
+        cart: state.cart.filter(current => current.id !== action.id)
+      }
+    case CHANGE_QUANTITY:
+      return {
+        ...state,
+        cart: state.cart.map(item => {
+          if (item.id === action.id) {
+            return action.data
+          } else {
+            return item
+          }
+        })
+      }
+    default:
+      return state
+  }
+}
