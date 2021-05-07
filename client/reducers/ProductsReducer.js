@@ -2,4 +2,8 @@ import axios from 'axios'
 
 //Initial State
 const initialState = {
-  allProducts:
+  allProducts: [],
+  selectedProduct: {}
+}
+//action types
+const S
