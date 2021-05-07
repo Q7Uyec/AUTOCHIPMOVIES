@@ -6,4 +6,5 @@ const initialState = {
   selectedProduct: {}
 }
 //action types
-const S
+const SELECTED_PRODUCT = 'SELECTED_PRODUCT'
+const GETTING_ALL
