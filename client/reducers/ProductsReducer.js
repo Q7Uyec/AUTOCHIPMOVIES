@@ -8,4 +8,7 @@ const initialState = {
 //action types
 const SELECTED_PRODUCT = 'SELECTED_PRODUCT'
 const GETTING_ALL_PRODUCTS = 'GET_ALL_PRODUCTS'
-const GOT_ALL_PRODUCTS = 'GOT_A
+const GOT_ALL_PRODUCTS = 'GOT_ALL_PRODUCTS'
+
+//action creators
+const gotSingleProduct = 
