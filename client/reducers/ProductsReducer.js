@@ -11,4 +11,9 @@ const GETTING_ALL_PRODUCTS = 'GET_ALL_PRODUCTS'
 const GOT_ALL_PRODUCTS = 'GOT_ALL_PRODUCTS'
 
 //action creators
-const gotSingleProduct = 
+const gotSingleProduct = product => ({
+  type: SELECTED_PRODUCT,
+  product
+})
+
+const gettingAllPr
