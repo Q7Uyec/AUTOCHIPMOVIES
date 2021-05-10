@@ -16,4 +16,8 @@ const gotSingleProduct = product => ({
   product
 })
 
-const gettingAllPr
+const gettingAllProducts = () => ({
+  type: GETTING_ALL_PRODUCTS
+})
+
+const 
