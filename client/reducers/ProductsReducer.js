@@ -20,4 +20,5 @@ const gettingAllProducts = () => ({
   type: GETTING_ALL_PRODUCTS
 })
 
-const 
+const gotAllProducts = allProducts => ({
+  type: GOT_ALL_P
