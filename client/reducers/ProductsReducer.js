@@ -37,4 +37,6 @@ export const getProduct = id => {
   }
 }
 
-e
+export const getAllProducts = () => {
+  return async dispatch => {
+    di
