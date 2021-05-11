@@ -27,4 +27,6 @@ const gotAllProducts = allProducts => ({
 
 //Thunk
 export const getProduct = id => {
- 
+  return async dispatch => {
+    try {
+      const { data } = aw
