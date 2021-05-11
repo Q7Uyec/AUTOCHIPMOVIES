@@ -29,4 +29,5 @@ const gotAllProducts = allProducts => ({
 export const getProduct = id => {
   return async dispatch => {
     try {
-      const { data } = aw
+      const { data } = await axios.get(`/api/products/${id}`)
+       dispatch(gotSinglePr
