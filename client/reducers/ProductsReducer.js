@@ -21,4 +21,10 @@ const gettingAllProducts = () => ({
 })
 
 const gotAllProducts = allProducts => ({
-  type: GOT_ALL_P
+  type: GOT_ALL_PRODUCTS,
+  allProducts
+})
+
+//Thunk
+export const getProduct = id => {
+ 
