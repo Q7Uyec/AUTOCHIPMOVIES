@@ -53,4 +53,5 @@ const productReducer = (state = initialState, action) => {
     case GOT_ALL_PRODUCTS:
       return {...state, allProducts: action.allProducts}
     case SELECTED_PRODUCT:
-      return 
+      return {...state, selectedProduct: action.product}
+    defaul
