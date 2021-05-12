@@ -41,4 +41,9 @@ export const getAllProducts = () => {
   return async dispatch => {
     dispatch(gettingAllProducts())
     const {data} = await axios.get('/api/products')
-    dispatch(gotAllPro
+    dispatch(gotAllProducts(data))
+  }
+}
+
+//Reducer
+const productReduce
