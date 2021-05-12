@@ -47,4 +47,6 @@ export const getAllProducts = () => {
 
 //Reducer
 const productReducer = (state = initialState, action) => {
-  switch (action.type)
+  switch (action.type) {
+    case GETTING_ALL_PRODUCTS:
+      return {...state, loading: tr
