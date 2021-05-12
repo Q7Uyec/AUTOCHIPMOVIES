@@ -7,3 +7,63 @@ import history from '../history'
  */
 const GET_USER = 'GET_USER'
 const REMOVE_USER = 'REMOVE_USER'
+
+/**
+ * INITIAL STATE
+ */
+const defaultUser = {}
+
+/**
+ * ACTION CREATORS
+ */
+const getUser = user => ({type: GET_USER, user})
+const removeUser = () => ({type: REMOVE_USER})
+
+/**
+ * THUNK CREATORS
+ */
+export const me = () => async dispatch => {
+  try {
+    const res = await axios.get('/auth/me')
+    dispatch(getUser(res.data || defaultUser))
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+export const auth = (
+  email,
+  password,
+  firstName,
+  lastName,
+  address,
+  city,
+  state,
+  country,
+  zipCode,
+  method
+) => async dispatch => {
+  let res
+  try {
+    res = await axios.post(`/auth/${method}`, {
+      email,
+      password,
+      firstName,
+      lastName,
+      address,
+      city,
+      state,
+      country,
+      zipCode
+    })
+  } catch (authError) {
+    return dispatch(getUser({error: authError}))
+  }
+
+  try {
+    dispatch(getUser(res.data))
+    history.push('/home')
+  } catch (dispatchOrHistoryErr) {
+    console.error(dispatchOrHistoryErr)
+  }
+}
