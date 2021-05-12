@@ -51,4 +51,6 @@ const productReducer = (state = initialState, action) => {
     case GETTING_ALL_PRODUCTS:
       return {...state, loading: true}
     case GOT_ALL_PRODUCTS:
-      return {...state, allProducts: acti
+      return {...state, allProducts: action.allProducts}
+    case SELECTED_PRODUCT:
+      return 
