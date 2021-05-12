@@ -54,4 +54,9 @@ const productReducer = (state = initialState, action) => {
       return {...state, allProducts: action.allProducts}
     case SELECTED_PRODUCT:
       return {...state, selectedProduct: action.product}
-    defaul
+    default:
+      return state
+  }
+}
+
+export default productReducer
