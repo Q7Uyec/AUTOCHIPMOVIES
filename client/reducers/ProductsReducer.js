@@ -46,4 +46,5 @@ export const getAllProducts = () => {
 }
 
 //Reducer
-const productReduce
+const productReducer = (state = initialState, action) => {
+  switch (action.type)
