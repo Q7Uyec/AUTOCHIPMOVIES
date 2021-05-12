@@ -39,4 +39,5 @@ export const getProduct = id => {
 
 export const getAllProducts = () => {
   return async dispatch => {
-    di
+    dispatch(gettingAllProducts())
+    const {data} = awa
