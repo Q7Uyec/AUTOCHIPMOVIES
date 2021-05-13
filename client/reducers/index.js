@@ -10,3 +10,5 @@ const rootReducer = combineReducers({
   Cart,
   Order
 })
+
+export default rootReducer
