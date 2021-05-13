@@ -4,4 +4,9 @@ import Users from './UserReducer'
 import Cart from './CartReducer'
 import Order from './OrderReducer'
 
-const rootReducer = comb
+const rootReducer = combineReducers({
+  Products,
+  Users,
+  Cart,
+  Order
+})
