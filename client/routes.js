@@ -5,4 +5,5 @@ import PropTypes from 'prop-types'
 import {Login, Signup, Checkout} from './components'
 import {me} from './reducers/UserReducer'
 import AllProducts from './components/AllProducts'
-import SingleProduct 
+import SingleProduct from './components/SingleProduct'
+import Splash from './components
