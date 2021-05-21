@@ -12,4 +12,7 @@ import Page404 from './components/Page404'
 import {getAllProducts} from './reducers/ProductsReducer'
 import OrderComplete from './components/OrderComplete'
 // import { Page404 } from './components/Page404'
-impo
+import UserHome from './components/UserHome'
+/**
+ * COMPONENT
+ */
