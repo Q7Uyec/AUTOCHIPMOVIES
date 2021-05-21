@@ -30,4 +30,5 @@ class Routes extends Component {
         <Route path="/login" component={Login} />
         <Route exact path="/signup" component={Signup} />
         <Route exact path="/" component={Splash} />
-        <Route exact path="/products" componen
+        <Route exact path="/products" component={AllProducts} />
+        <Route exact path="/cart" c
