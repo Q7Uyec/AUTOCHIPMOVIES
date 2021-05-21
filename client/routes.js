@@ -6,4 +6,6 @@ import {Login, Signup, Checkout} from './components'
 import {me} from './reducers/UserReducer'
 import AllProducts from './components/AllProducts'
 import SingleProduct from './components/SingleProduct'
-import Splash from './components
+import Splash from './components/Splash'
+import Cart from './components/Cart'
+import Page404 fro
