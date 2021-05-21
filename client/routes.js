@@ -9,4 +9,5 @@ import SingleProduct from './components/SingleProduct'
 import Splash from './components/Splash'
 import Cart from './components/Cart'
 import Page404 from './components/Page404'
-import {getAllProducts} from './reducers/Pr
+import {getAllProducts} from './reducers/ProductsReducer'
+import OrderComplete from './compone
