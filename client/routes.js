@@ -22,4 +22,8 @@ class Routes extends Component {
     this.props.loadProducts()
   }
 
-  r
+  render() {
+    const {isLoggedIn} = this.props
+    return (
+      <Switch>
+        {/* Rout
