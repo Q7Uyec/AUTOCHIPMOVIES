@@ -8,4 +8,5 @@ import AllProducts from './components/AllProducts'
 import SingleProduct from './components/SingleProduct'
 import Splash from './components/Splash'
 import Cart from './components/Cart'
-import Page404 fro
+import Page404 from './components/Page404'
+import {getAllProducts} from './reducers/Pr
