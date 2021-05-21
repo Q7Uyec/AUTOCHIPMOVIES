@@ -10,4 +10,6 @@ import Splash from './components/Splash'
 import Cart from './components/Cart'
 import Page404 from './components/Page404'
 import {getAllProducts} from './reducers/ProductsReducer'
-import OrderComplete from './compone
+import OrderComplete from './components/OrderComplete'
+// import { Page404 } from './components/Page404'
+impo
