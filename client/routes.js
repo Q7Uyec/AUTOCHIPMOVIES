@@ -16,3 +16,6 @@ import UserHome from './components/UserHome'
 /**
  * COMPONENT
  */
+class Routes extends Component {
+  componentDidMount() {
+  
