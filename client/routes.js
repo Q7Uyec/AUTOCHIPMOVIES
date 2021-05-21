@@ -29,4 +29,5 @@ class Routes extends Component {
         {/* Routes placed here are available to all visitors */}
         <Route path="/login" component={Login} />
         <Route exact path="/signup" component={Signup} />
-        <Route exact path="/" 
+        <Route exact path="/" component={Splash} />
+        <Route exact path="/products" componen
