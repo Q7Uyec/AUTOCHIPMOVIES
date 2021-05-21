@@ -18,4 +18,8 @@ import UserHome from './components/UserHome'
  */
 class Routes extends Component {
   componentDidMount() {
-  
+    this.props.loadInitialData()
+    this.props.loadProducts()
+  }
+
+  r
