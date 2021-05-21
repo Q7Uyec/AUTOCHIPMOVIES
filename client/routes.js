@@ -26,4 +26,5 @@ class Routes extends Component {
     const {isLoggedIn} = this.props
     return (
       <Switch>
-        {/* Rout
+        {/* Routes placed here are available to all visitors */}
+        <Route path="
