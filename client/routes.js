@@ -38,4 +38,5 @@ class Routes extends Component {
 
         {isLoggedIn && (
           <Switch>
-            {/* Routes placed
+            {/* Routes placed here are only available after logging in */}
+            <R
