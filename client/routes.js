@@ -36,4 +36,6 @@ class Routes extends Component {
         <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/orderComplete" component={OrderComplete} />
 
-        {i
+        {isLoggedIn && (
+          <Switch>
+            {/* Routes placed
