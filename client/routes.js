@@ -40,4 +40,5 @@ class Routes extends Component {
           <Switch>
             {/* Routes placed here are only available after logging in */}
             <Route exact path="/home" component={UserHome} />
-       
+            <Route exact path="/products" component={AllProducts} />
+   
