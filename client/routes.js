@@ -67,4 +67,7 @@ const mapState = state => {
 
 const mapDispatch = dispatch => {
   return {
-    loadIniti
+    loadInitialData() {
+      dispatch(me())
+    },
+    loadProd
