@@ -76,4 +76,4 @@ const mapDispatch = dispatch => {
   }
 }
 
-// The `
+// The `withRouter` wrapper makes sure that updates 
