@@ -64,3 +64,7 @@ const mapState = state => {
     isLoggedIn: !!state.Users.id
   }
 }
+
+const mapDispatch = dispatch => {
+  return {
+    loadIniti
