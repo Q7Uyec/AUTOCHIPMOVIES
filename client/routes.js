@@ -70,4 +70,10 @@ const mapDispatch = dispatch => {
     loadInitialData() {
       dispatch(me())
     },
-    loadProd
+    loadProducts() {
+      dispatch(getAllProducts())
+    }
+  }
+}
+
+// The `
