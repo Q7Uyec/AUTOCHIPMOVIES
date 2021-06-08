@@ -5,4 +5,5 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 import axios from 'axios'
 import rootReducer from './reducers'
 
-const mi
+const middleware = composeWithDevTools(
+  apply
