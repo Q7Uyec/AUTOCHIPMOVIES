@@ -6,4 +6,4 @@ import axios from 'axios'
 import rootReducer from './reducers'
 
 const middleware = composeWithDevTools(
-  apply
+  applyMiddleware(thunkMiddleware.withExtraArgumen
