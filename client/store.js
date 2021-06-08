@@ -8,4 +8,7 @@ import rootReducer from './reducers'
 const middleware = composeWithDevTools(
   applyMiddleware(thunkMiddleware.withExtraArgument({axios}), createLogger({collapsed: true}))
 )
-const store = createStore(r
+const store = createStore(rootReducer, middleware)
+
+export default store
+export * from '
