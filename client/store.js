@@ -6,4 +6,6 @@ import axios from 'axios'
 import rootReducer from './reducers'
 
 const middleware = composeWithDevTools(
-  applyMiddleware(thunkMiddleware.withExtraArgumen
+  applyMiddleware(thunkMiddleware.withExtraArgument({axios}), createLogger({collapsed: true}))
+)
+const store = createStore(r
