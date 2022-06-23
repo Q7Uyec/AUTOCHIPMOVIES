@@ -393,3 +393,58 @@ small {
 /* #productlink{
   position: relative;
   align-self: center;
+  align-items: center;
+  padding: 10px;
+  max-width: 100%;
+  /* border-bottom: 1px solid black;
+}
+} */
+
+
+
+/* #productlink a:hover{
+  background-color: ;
+  color: white;
+  width: 50%;
+  font-size: 40px;
+  letter-spacing: -2px;
+  transition: 0.8s;
+} */
+
+.welcometext {
+  font-family: helvetica;
+  letter-spacing: 2px;
+  text-align: center;
+  size: 24px;
+
+}
+
+
+#footer {
+  height:150px;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+}
+
+nav img{
+box-shadow: 0px 0px black;
+border-radius: 0%;
+width: 11px;
+height: 11px;
+-webkit-filter: invert(100%); /* Safari 6.0 - 9.0 */
+  filter: invert(100%);
+}
+
+nav img:hover{
+box-shadow: 0px 0px black;
+border-radius: 0%;
+width: 11px;
+height: 11px;
+}
+
+
+#container img{
+width: 300px;
+height: 300px;
