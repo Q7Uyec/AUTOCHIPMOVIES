@@ -85,3 +85,70 @@ font-weight: bold;
   letter-spacing: -3px;
     transition: 0.8s;
 }
+
+#productlink a:hover {
+ transition: 0.8s;
+ color:black;
+border-bottom: 12px solid deepskyblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+a:after {
+    color: #4BD6FF;
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  /* position: absolute; */
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+
+
+label {
+  display: block;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+	#container {
+    background: white;
+    opacity: 0.8;
+		width: 944px;
+    margin: 50px auto 0 auto;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    /* min-height:800px; */
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	}
+
+
+#container p{
+   text-shadow: 1px 1px white;
+}
