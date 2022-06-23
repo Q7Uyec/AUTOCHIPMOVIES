@@ -1,0 +1,18 @@
+
+
+
+* {
+  box-sizing: border-box;
+text-shadow: 1px 1px gray;
+text-align: center;
+}
+
+body {
+background-color: linear-gradient(#69618a, #032041);
+font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+  font-size: 16px;
+  border: 0px solid blue;
+  background-image: url("https://zdnet2.cbsistatic.com/hub/i/r/2012/11/26/278e55cc-1d11-11e4-8c7f-00505685119a/thumbnail/770x578/d7ee420bbcc0785819eb1f6950790483/cloud-horizon.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
