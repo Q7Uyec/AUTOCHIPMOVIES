@@ -16,3 +16,72 @@ font-family: 'Roboto', sans-serif;
   background-image: url("https://zdnet2.cbsistatic.com/hub/i/r/2012/11/26/278e55cc-1d11-11e4-8c7f-00505685119a/thumbnail/770x578/d7ee420bbcc0785819eb1f6950790483/cloud-horizon.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+nav {
+  font-family: 'helvetica', serif;
+  letter-spacing: -4px;
+  font-weight: bold;
+  font-size: 52px;
+
+
+}
+
+#container heading {
+    font-family: 'helvetica', serif;
+    text-align: left;
+    /* background-color: blue; */
+    border-bottom: 6px double black;
+    /* min-width: 100%; */
+  letter-spacing: -4px;
+  font-weight: bold;
+  font-size: 82px;
+  display: block;
+  padding-top: 5px;
+}
+
+
+
+/*
+a {
+  color: white;
+  font-family: helvetica;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* padding: 2px;
+  font-size: 20px;
+}
+
+#container a {
+  color: white;
+  font-family: helvetica;
+  letter-spacing: -4px;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: none;
+  /* padding: 2px;
+
+} */
+
+
+
+#productlink a{
+  background-color: transparent;
+  font-size: 60px;
+  font-family: helvetica;
+  text-decoration: none;
+  color: black;
+  max-width: 100%;
+  /* display: block; */
+font-weight: bold;
+  letter-spacing: -3px;
+    transition: 0.8s;
+}
