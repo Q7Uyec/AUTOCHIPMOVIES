@@ -8,4 +8,6 @@
 # bash commands, and this file strings a bunch of commands together.
 
 # The first line of this file, or the `hashbang`, tells the system to
-# execute the text o
+# execute the text of this file as a bash program.
+
+# We want this entire 
