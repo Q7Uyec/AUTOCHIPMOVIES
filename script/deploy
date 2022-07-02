@@ -14,4 +14,5 @@
 # So we set the `-e` flag.
 set -e
 
-# If our deploy fails partway through we wan
+# If our deploy fails partway through we want to clean up after ourselves.
+# This next block is like a t
