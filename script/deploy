@@ -27,4 +27,6 @@ function cleanup_at_exit {
   # remove the deploy branch
   git branch -D deploy
 }
-trap clean
+trap cleanup_at_exit EXIT
+
+# checks out a new branch calle
