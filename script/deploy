@@ -17,4 +17,5 @@ set -e
 # If our deploy fails partway through we want to clean up after ourselves.
 # This next block is like a try/catch for our entire script.
 
-# We trap any pr
+# We trap any program EXIT and run this function.
+# Whether the deploy succeeds or 
