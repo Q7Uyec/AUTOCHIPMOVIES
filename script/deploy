@@ -36,4 +36,5 @@ git checkout -b deploy
 # webpack will run in "production mode"
 webpack -p
 
-# "force" a
+# "force" add the otherwise gitignored build files
+git add -f public/bundle.js public
