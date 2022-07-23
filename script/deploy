@@ -40,4 +40,6 @@ webpack -p
 git add -f public/bundle.js public/bundle.js.map
 
 # create a commit, even if nothing changed
-git
+git commit --allow-empty -m 'Deploying'
+
+# push your local "d
