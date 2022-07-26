@@ -2,4 +2,9 @@
 
 set -e
 
-function cleanup_
+function cleanup_at_exit {
+  # remove temporary key file
+  rm tmp.pem
+}
+
+trap cl
