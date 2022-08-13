@@ -7,4 +7,6 @@ function cleanup_at_exit {
   rm tmp.pem
 }
 
-trap cl
+trap cleanup_at_exit EXIT
+
+# Get the repo name from th
