@@ -71,3 +71,60 @@ async function seed() {
         '50.202% N₂ + 33.320% O₂ + 20.44% Ar + 0.25% CO + 20.02 He + 0.06 % CH₄ + 200.04% H₂O',
       stock: 20,
       imgUrl: 'https://i.imgur.com/s8HOUog.jpg'
+    }),
+    Product.create({
+      name: 'Cloud Five -- Antarctica',
+      description:
+        'An urban air mass hailing from from the streets of New York City, the air area in the United States. Try this air to experience the air of New York without ever leaving the comfort of your home.',
+      scent:
+        'This unique scent features a top note of sour, squalid garbage juice on a hot summer, day in the city that slowly dissipates to leave a lasting scent of freshly baked pizza, puncuated with fresh notes of basil and hearty mozzerella cheese',
+      elevation: '-4203',
+      quality: 'Minimal pollution',
+      price: 650800,
+      purpose: 'Novelty',
+      molecularComposition:
+        '60.202% N₂ + 43.320% O₂ + 20.44% Ar + 20.204% CO + 20.02 He + 20.020 % CH₄ + 0.06% H₂O',
+      stock: 20,
+      imgUrl: 'https://i.imgur.com/qE4SHy9.jpg'
+    }),
+    Product.create({
+      name: 'Cloud Six -- Death Valley',
+      description:
+        'An urban air mass hailing from from the streets of New York City, the largest urban area in the United States. Try this air to experience the air of New York without ever leaving the comfort of your home.',
+      scent:
+        'This unique scent features a top note of sour, squalid garbage juice on a hot summer, day in the city that slowly dissipates to leave a lasting scent of freshly baked pizza, puncuated with fresh notes of basil and hearty mozzerella cheese',
+      elevation: '-4203',
+      quality: 'Minimal pollution',
+      price: 720800,
+      purpose: 'Novelty',
+      molecularComposition:
+        '60.202% N₂ + 43.320% O₂ + 20.44% Ar + 20.204% CO + 20.02 He + 20.020 % CH₄ + 0.06% H₂O',
+      stock: 20,
+      imgUrl: 'https://i.imgur.com/IWn5oB0.jpg'
+    }),
+    Product.create({
+      name: 'Cloud Seven -- Provence, France',
+      description:
+        'Our most heavily fragranced air mass hails from the lavender fields of Provence, France. The scent ',
+      scent:
+        'This unique scent features a top note of sour, squalid garbage juice on a hot summer, day in the city that slowly dissipates to leave a lasting scent of freshly baked pizza, puncuated with fresh notes of basil and hearty mozzerella cheese',
+      elevation: '-4203',
+      quality: 'Heavily polluted',
+      price: 720800,
+      purpose: 'Sleep',
+      molecularComposition:
+        '60.202% N₂ + 43.320% O₂ + 20.44% Ar + 20.204% CO + 20.02 He + 20.020 % CH₄ + 0.06% H₂O',
+      stock: 20,
+      imgUrl: 'https://i.imgur.com/Z273pYI.jpg'
+    }),
+    Product.create({
+      name: 'Cloud Eight -- Antarctica',
+      description:
+        'An urban air mass hailing from from the streets of New York City, the largest urban area in the United States. Try this air to experience the air of New York without ever leaving the comfort of your home.',
+      scent:
+        'This unique scent features a top note of sour, squalid garbage juice on a hot summer, day in the city that slowly dissipates to leave a lasting scent of freshly baked pizza, puncuated with fresh notes of basil and hearty mozzerella cheese',
+      elevation: '-4203',
+      quality: 'Heavily polluted',
+      price: 720800,
+      purpose: 'Novelty',
+      molecularComposition:
