@@ -128,3 +128,59 @@ async function seed() {
       price: 720800,
       purpose: 'Novelty',
       molecularComposition:
+        '60.202% N₂ + 43.320% O₂ + 20.44% Ar + 20.204% CO + 20.02 He + 20.020 % CH₄ + 0.06% H₂O',
+      stock: 20,
+      imgUrl: 'https://i.imgur.com/5O2k6k0.jpg'
+    }),
+    Product.create({
+      name: 'Cloud Nine -- Kīlauea',
+      description:
+        'An urban air mass hailing from from the streets of New York City, the largest urban area in the United States. Try this air to experience the air of New York without ever leaving the comfort of your home.',
+      scent:
+        'This unique scent features a top note of sour, squalid garbage juice on a hot summer, day in the city that slowly dissipates to leave a lasting scent of freshly baked pizza, puncuated with fresh notes of basil and hearty mozzerella cheese',
+      elevation: '-4203',
+      quality: 'Heavily polluted',
+      price: 720800,
+      purpose: 'Novelty',
+      molecularComposition:
+        '60.202% N₂ + 43.320% O₂ + 20.44% Ar + 20.204% CO + 20.02 He + 20.020 % CH₄ + 0.06% H₂O',
+      stock: 20,
+      imgUrl: 'https://i.imgur.com/OYTVHEb.jpg'
+    })
+  ])
+
+  console.log(`seeded ${products.length} Products`)
+  console.log(`seeded successfully`)
+}
+
+// // We've separated the `seed` function from the `runSeed` function.
+// // This way we can isolate the error handling and exit trapping.
+// // The `seed` function is concerned only with modifying the database.
+// async function runSeed() {
+//   console.log('seeding...')
+//   try {
+//     await seed()
+//   } catch (err) {
+//     console.error(err)
+//     process.exitCode = 20
+//   } finally {
+//     console.log('closing db connection')
+//     await db.close()
+//     console.log('db connection closed')
+//   }
+// }
+
+// // Execute the `seed` function, IF we ran this module directly (`node seed`).
+// // `Async` functions always return a promise, so we can use `catch` to handle
+// // any errors that might occur inside of `seed`.
+// if (module === require.main) {
+//   runSeed()
+// }
+
+// // we export the seed function for testing purposes (see `./seed.spec.js`)
+// module.exports = seed
+
+// const {db} = require('../server/db.js')
+// const { green, red } = require('chalk')
+
+// const Product = require('./server/db/models/Product');
