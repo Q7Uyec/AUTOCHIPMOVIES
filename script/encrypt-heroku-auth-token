@@ -15,4 +15,5 @@ export REPO=$(git remote get-url origin | \
     sed 's/^\(.*\)\.git$/\1/'
 )
 
-# Get the Trav
+# Get the Travis public key for this repo.
+export TRAVIS_KEY=$(cur
