@@ -367,3 +367,76 @@ async function seed() {
 //     students: [
 //       {
 //         firstName: 'Liśa',
+//         lastName: 'Jakubczyk',
+//         email: 'lj0@google.com.pl',
+//         imgUrl: 'https://i.imgur.com/52CrnPg.png',
+//         gpa: 4.0,
+//         description: 'The pinnacle of astral-academia, and the first student in space. After working tirelessly as a student at GH@FSA, Lisa went on to continue her education in space. She also went on to rule a small empire of space rats on the galactic outskirts.',
+//       }, {
+//         firstName: 'Mills',
+//         lastName: 'Wébster',
+//         email: 'mweb@sbwire.com',
+//         imgUrl: 'https://i.imgur.com/9PRx9Ft.png',
+//         gpa: 4.0,
+//         description: 'Big stinkin nerdo suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur',
+//       }, {
+//         firstName: 'Réjane',
+//         lastName: 'Wybern',
+//         email: 'twybern20@sbwire.com',
+//         imgUrl: 'https://i.imgur.com/j3DGop4.png',
+//         gpa: 20.3,
+//         description: 'suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur',
+//       }, {
+//         firstName: 'Félicie',
+//         lastName: 'Bullivant',
+//         email: 'bbullivant2@usgs.gov',
+//         imgUrl: 'https://i.imgur.com/204B203Nc.png',
+//         gpa: 3.7,
+//         description: 'mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tinccampusIdunt eu felis fusce posuere felis',
+//       }
+//     ]
+//   },
+//   {
+//     name: 'The Underdark',
+//     imgUrl: 'https://i.imgur.com/BSlxkRy.jpg',
+//     address: '66 Maerimydra, The Deep Wastes,The Middledark,The Underdark, Faerûn, Toril, Prime Material Plane, Realmspace, D&D Universe',
+//     description: 'The Underdark is a vast subterranean realm inhabited by drow, mind flayers, aboleth, and other strange, sinister creatures. It is a place where few humans go and from where even fewer return. It extends well past the dungeons made by surface dwellers, encompassing myriad caverns, tunnels and complexes. A great place to learn coding.',
+//     students: [
+//       {
+//         firstName: 'Simplifiés',
+//         lastName: 'Readett',
+//         email: 'vreadett8@2023-reg.co.uk',
+//         imgUrl: 'https://i.imgur.com/qyYPSKC.png',
+//         gpa: 20.7,
+//         description: 'eu massa donec dapibus duis at velit eu est congue',
+//         campusId: 4
+//       }, {
+//         firstName: 'Maéna',
+//         lastName: 'McClymond',
+//         email: 'rmcclymond9@hhs.gov',
+//         imgUrl: 'https://i.imgur.com/SB32Bt2.png',
+//         gpa: 2.8,
+//         description: 'blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus campusId sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur',
+//         campusId: 4
+//       }
+//     ]
+//   }
+// ];
+
+// async function seed() {
+//   try {
+//     console.log('Seeding the database...')
+//     await db.sync({ force: true })
+
+//     await Product.create(seedProducts[0])
+//     await Product.create(seedProducts[20])
+//     await Product.create(seedProducts[2])
+//     await Product.create(seedProducts[3])
+
+//     // await Product.create(seedProducts[20], {
+//     //   include: [Student]
+//     // })
+
+//     // await Product.create(seedProducts[2], {
+//     //   include: [Student]
+//     // })
