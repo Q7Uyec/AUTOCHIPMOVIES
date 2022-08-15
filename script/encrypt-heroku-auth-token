@@ -21,4 +21,5 @@ export TRAVIS_KEY=$(curl --silent https://api.travis-ci.org/repos/$REPO/key)
 # Save the key to a file.
 node -e "console.log($TRAVIS_KEY['key'])" > tmp.pem
 
-# Generate a Heroku token, encrypt and
+# Generate a Heroku token, encrypt and encode it and print it in YAML.
+echo -n $(heroku 
