@@ -16,4 +16,4 @@ export REPO=$(git remote get-url origin | \
 )
 
 # Get the Travis public key for this repo.
-export TRAVIS_KEY=$(cur
+export TRAVIS_KEY=$(curl --silent https://api.travis-ci.org/repos/$REPO/key)
