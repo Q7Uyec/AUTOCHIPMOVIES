@@ -1,2 +1,4 @@
 'use strict'
-/* globa
+/* global describe beforeEach it */
+
+const seed = require('
