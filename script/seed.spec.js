@@ -4,4 +4,5 @@
 const seed = require('./seed')
 
 describe('seed script', () => {
-  it('completes succes
+  it('completes successfully', seed)
+})
