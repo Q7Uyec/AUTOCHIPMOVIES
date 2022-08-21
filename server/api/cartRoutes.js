@@ -3,4 +3,7 @@ const {Cart, Product} = require('../db/models')
 
 module.exports = router
 
-router.get('/', async (req, res, next) =>
+router.get('/', async (req, res, next) => {
+  try {
+    const cart = await Cart.findAll({
+      in
