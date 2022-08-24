@@ -6,4 +6,7 @@ module.exports = router
 router.get('/', async (req, res, next) => {
   try {
     const cart = await Cart.findAll({
-      in
+      include: [{model: Product}],
+      where: {
+        userId: null,
+        ord
