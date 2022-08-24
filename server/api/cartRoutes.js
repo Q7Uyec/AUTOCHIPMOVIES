@@ -9,4 +9,9 @@ router.get('/', async (req, res, next) => {
       include: [{model: Product}],
       where: {
         userId: null,
-        ord
+        orderId: null
+      }
+    })
+
+    res.json(cart)
+  } catch (e
