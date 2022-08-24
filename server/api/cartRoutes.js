@@ -14,4 +14,9 @@ router.get('/', async (req, res, next) => {
     })
 
     res.json(cart)
-  } catch (e
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.put('/', async (req, res
