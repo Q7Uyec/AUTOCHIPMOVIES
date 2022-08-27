@@ -19,4 +19,6 @@ router.get('/', async (req, res, next) => {
   }
 })
 
-router.put('/', async (req, res
+router.put('/', async (req, res, next) => {
+  try {
+    const {id, price
