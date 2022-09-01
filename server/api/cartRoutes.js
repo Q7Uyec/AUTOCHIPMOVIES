@@ -23,4 +23,7 @@ router.put('/', async (req, res, next) => {
   try {
     const {id, price, stock} = req.body
 
-    let cartItem = await Cart.findOne
+    let cartItem = await Cart.findOne({
+      where: {
+        productId: id,
+        userId: 
