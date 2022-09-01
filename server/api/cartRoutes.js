@@ -26,4 +26,9 @@ router.put('/', async (req, res, next) => {
     let cartItem = await Cart.findOne({
       where: {
         productId: id,
-        userId: 
+        userId: null,
+        orderId: null
+      }
+    })
+
+    if (c
