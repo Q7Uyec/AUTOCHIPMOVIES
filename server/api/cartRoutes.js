@@ -59,4 +59,9 @@ router.put('/:id', async (req, res, next) => {
 
     let cartItem = await Cart.findOne({
       where: {
-        id
+        id: cartItemId,
+        userId: null
+      }
+    })
+
+    let quant = cartI
