@@ -64,4 +64,7 @@ router.put('/:id', async (req, res, next) => {
       }
     })
 
-    let quant = cartI
+    let quant = cartItem.quantity
+
+    if (req.body.change === 'inc') {
+   
