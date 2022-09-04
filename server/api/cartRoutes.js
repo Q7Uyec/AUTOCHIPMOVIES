@@ -53,4 +53,6 @@ router.put('/', async (req, res, next) => {
   }
 })
 
-router.put('/:id', async (req, res, next)
+router.put('/:id', async (req, res, next) => {
+  try {
+    const cartItemId = req.params.id
