@@ -42,4 +42,8 @@ router.put('/', async (req, res, next) => {
         await Cart.create({
           quantity: 1,
           pricePerItem: price,
-          
+          productId: id
+        })
+      )
+    } else {
+      res
