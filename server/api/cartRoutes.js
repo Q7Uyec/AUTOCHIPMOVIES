@@ -40,4 +40,6 @@ router.put('/', async (req, res, next) => {
     } else if (stock > 1) {
       res.json(
         await Cart.create({
-          qu
+          quantity: 1,
+          pricePerItem: price,
+          
