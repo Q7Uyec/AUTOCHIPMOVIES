@@ -67,4 +67,5 @@ router.put('/:id', async (req, res, next) => {
     let quant = cartItem.quantity
 
     if (req.body.change === 'inc') {
-   
+      cartItem = await cartItem.update({
+        quantity: qua
