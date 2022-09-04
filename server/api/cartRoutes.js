@@ -46,4 +46,6 @@ router.put('/', async (req, res, next) => {
         })
       )
     } else {
-      res
+      res.send('Item out of Stock!')
+    }
+  } catch
