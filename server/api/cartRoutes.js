@@ -33,4 +33,6 @@ router.put('/', async (req, res, next) => {
 
     if (cartItem && stock > 1) {
       let quant = cartItem.quantity
-      c
+      cartItem = await cartItem.update({
+        quantity: quant + 1
+    
