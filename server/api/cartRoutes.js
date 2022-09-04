@@ -37,4 +37,7 @@ router.put('/', async (req, res, next) => {
         quantity: quant + 1
       })
       res.json(cartItem)
-    } else if (stock
+    } else if (stock > 1) {
+      res.json(
+        await Cart.create({
+          qu
