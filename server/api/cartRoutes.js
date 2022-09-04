@@ -35,4 +35,6 @@ router.put('/', async (req, res, next) => {
       let quant = cartItem.quantity
       cartItem = await cartItem.update({
         quantity: quant + 1
-    
+      })
+      res.json(cartItem)
+    } else if (stock
