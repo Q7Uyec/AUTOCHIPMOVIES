@@ -72,4 +72,6 @@ router.put('/:id', async (req, res, next) => {
       })
       res.json(cartItem)
     } else if (req.body.change === 'dec' && quant > 1) {
-      cartItem
+      cartItem = await cartItem.update({
+        quantity: quant - 1
+   
