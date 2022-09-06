@@ -85,4 +85,9 @@ router.put('/:id', async (req, res, next) => {
       })
       res.sendStatus(204)
     }
-  
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.delete('/:id', async 
