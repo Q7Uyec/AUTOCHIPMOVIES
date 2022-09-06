@@ -90,4 +90,7 @@ router.put('/:id', async (req, res, next) => {
   }
 })
 
-router.delete('/:id', async 
+router.delete('/:id', async (req, res, next) => {
+  try {
+    await Cart.destroy({
+   
