@@ -80,4 +80,9 @@ router.put('/:id', async (req, res, next) => {
       await Cart.destroy({
         where: {
           id: req.params.id,
-          userId: nul
+          userId: null
+        }
+      })
+      res.sendStatus(204)
+    }
+  
