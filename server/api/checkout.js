@@ -50,3 +50,18 @@ router.put('/', async (req, res, next) => {
     })
 
     await cart.map(current =>
+      current.update(
+        {orderId: newOrder.id},
+        {where: {userId: null, orderId: null}}
+      )
+    )
+    const orderObj = {
+      order: newOrder,
+      cart
+    }
+
+    res.send(orderObj)
+  } catch (err) {
+    next(err)
+  }
+})
