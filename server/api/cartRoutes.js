@@ -100,4 +100,6 @@ router.delete('/:id', async (req, res, next) => {
     })
     res.sendStatus(204)
   } catch (err) {
-    next
+    next(err)
+  }
+})
