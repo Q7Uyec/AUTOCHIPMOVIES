@@ -7,4 +7,5 @@ router.get('/:userId', isUser, async (req, res, next) => {
   try {
     const {userId} = req.params
     const orders = await Order.findAll({
- 
+      where: {userId},
+      include: [{model: Item, include: {mo
