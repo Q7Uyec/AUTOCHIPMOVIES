@@ -8,4 +8,4 @@ const isUser = (req, res, next) => {
   }
 }
 
-module.exports = isU
+module.exports = isUser
