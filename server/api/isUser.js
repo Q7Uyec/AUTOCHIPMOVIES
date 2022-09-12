@@ -1,3 +1,5 @@
 const isUser = (req, res, next) => {
   if (Number(req.user.id) !== Number(req.params.id)) {
-    const
+    const err = new Error('Access denied')
+    err.status = 401
+ 
