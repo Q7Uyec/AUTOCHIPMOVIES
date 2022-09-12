@@ -8,4 +8,4 @@ const isAdmin = (req, res, next) => {
   }
 }
 
-module.
+module.exports = isAdmin
