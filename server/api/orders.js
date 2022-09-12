@@ -1,3 +1,6 @@
 const router = require('express').Router()
 const {Order, Product, Item} = require('../db/models')
-const isUser = require('./
+const isUser = require('./isUser')
+module.exports = router
+
+router.get('/:userId', isUser
