@@ -11,4 +11,9 @@ router.get('/:userId', isUser, async (req, res, next) => {
       include: [{model: Item, include: {model: Product}}]
     })
     res.json(orders)
-  } catch (er
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.get('/:userId/singleOrder
