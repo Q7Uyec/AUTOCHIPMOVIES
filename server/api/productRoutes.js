@@ -8,4 +8,8 @@ router.get('/', async (req, res, next) => {
     const allProducts = await Product.findAll(
       { order: [['id', 'ASC']] }
     )
-    res
+    res.json(allProducts)
+  } catch (err) {
+    next(err)
+  }
+}
