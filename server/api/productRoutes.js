@@ -5,4 +5,7 @@ module.exports = router
 
 router.get('/', async (req, res, next) => {
   try {
-    const allProducts = awai
+    const allProducts = await Product.findAll(
+      { order: [['id', 'ASC']] }
+    )
+    res
