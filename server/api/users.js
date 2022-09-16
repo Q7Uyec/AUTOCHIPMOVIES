@@ -117,3 +117,57 @@ router.put('/:userId/cart', async (req, res, next) => {
     } else {
       res.send('Item out of Stock!')
     }
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.put('/:userId/cart/:productId', async (req, res, next) => {
+  try {
+    const cartItemId = req.params.productId
+
+    let cartItem = await Cart.findOne({
+      where: {
+        id: cartItemId,
+        userId: req.params.userId
+      }
+    })
+
+    let quant = cartItem.quantity
+
+    if (req.body.change === 'inc') {
+      cartItem = await cartItem.update({
+        quantity: quant + 1
+      })
+      res.json(cartItem)
+    } else if (req.body.change === 'dec' && quant > 1) {
+      cartItem = await cartItem.update({
+        quantity: quant - 1
+      })
+      res.json(cartItem)
+    } else if (req.body.change === 'dec' && quant === 1) {
+      await Cart.destroy({
+        where: {
+          id: req.params.productId,
+          userId: req.params.userId
+        }
+      })
+      res.sendStatus(204)
+    }
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.delete('/:userId/cart/:productId', async (req, res, next) => {
+  try {
+    await Cart.destroy({
+      where: {
+        id: req.params.productId
+      }
+    })
+    res.sendStatus(204)
+  } catch (err) {
+    next(err)
+  }
+})
