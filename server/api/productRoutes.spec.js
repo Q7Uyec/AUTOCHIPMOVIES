@@ -45,3 +45,19 @@ describe('Product routes', () => {
 
     it('GET /api/products', async () => {
       const res = await request(app)
+        .get('/api/products')
+        .expect(200)
+
+      //expect(res.body).to.be.an('array')
+      expect(res.body[0].name).to.equal(nycAir.name)
+      expect(res.body[0].description).to.equal(nycAir.description)
+      expect(res.body[0].scent).to.equal(nycAir.scent)
+    })
+    it('gives a product based on the id specified', async () => {
+      const res = await request(app)
+        .get('/api/products/1')
+        .expect(200)
+      expect(res.body).to.be.an('object')
+    })
+  })
+}) // end describe('Product routes')
