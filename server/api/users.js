@@ -56,3 +56,64 @@ router.put('/:userId/checkout', async (req, res, next) => {
       include: [{model: Product}],
       where: {
         userId: req.params.userId,
+        orderId: null
+      }
+    })
+
+    let newOrder = await Order.create({
+      status: 'Ready for dispatch',
+      quantity: cart.length,
+      total: cart.reduce((acc, curr) => {
+        acc += curr.quantity * curr.pricePerItem
+      }, 0),
+      userId: req.params.userId
+    })
+
+    await cart.map(current =>
+      current.update(
+        {orderId: newOrder.id},
+        {where: {userId: req.params.userId, orderId: null}}
+      )
+    )
+
+    const orderObj = {
+      order: newOrder,
+      cart
+    }
+
+    res.send(orderObj)
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.put('/:userId/cart', async (req, res, next) => {
+  try {
+    const {id, price, stock} = req.body
+
+    let cartItem = await Cart.findOne({
+      where: {
+        productId: id,
+        userId: req.params.userId,
+        orderId: null
+      }
+    })
+
+    if (cartItem && stock > 1) {
+      let quant = cartItem.quantity
+      cartItem = await cartItem.update({
+        quantity: quant + 1
+      })
+      res.json(cartItem)
+    } else if (stock > 1) {
+      res.json(
+        await Cart.create({
+          quantity: 1,
+          pricePerItem: price,
+          productId: id,
+          userId: req.params.userId
+        })
+      )
+    } else {
+      res.send('Item out of Stock!')
+    }
