@@ -114,3 +114,72 @@ describe('User routes', () => {
 
 //     beforeEach(async () => {
 //       const creatingArticles = [
+//         {
+//           title: 'Boring article',
+//           content: 'This article is boring'
+//         },
+//         {
+//           title: 'Cool Article',
+//           content: 'This article is cool'
+//         },
+//         {
+//           title: 'Riveting Article',
+//           content: 'This article is riveting'
+//         }
+//       ].map(data => Article.create(data));
+
+//       const createdArticles = await Promise.all(creatingArticles);
+//       coolArticle = createdArticles[1];
+//     });
+
+//     /**
+//      * This is a proper GET /articles/ID request
+//      * where we search by the ID of the article created above
+//      */
+//     it('returns the JSON of the article based on the id', async () => {
+//       const res = await agent.get('/articles/' + coolArticle.id).expect(200);
+
+//       if (typeof res.body === 'string') {
+//         res.body = JSON.parse(res.body);
+//       }
+//       expect(res.body.title).to.equal('Cool Article');
+//     });
+
+//     /**
+//      * Here we pass in a bad ID to the URL, we should get a 404 error
+//      */
+//     it('returns a 404 error if the ID is not correct', () => {
+//       return agent.get('/articles/76142896').expect(404);
+//     });
+//   });
+
+//   /**
+//    * Series of tests to test creation of new Articles using a POST
+//    * request to /articles
+//    */
+//   describe('POST /articles', () => {
+//     /**
+//      * Test the creation of an article
+//      * Here we don't get back just the article, we get back an object of this type, which you construct:
+//      *  {
+//      *    message: 'Created successfully',
+//      *    article: <the created article instance>
+//      *  }
+//      *
+//      */
+//     it('creates a new article', async () => {
+//       const res = await agent
+//         .post('/articles')
+//         .send({
+//           title: 'Awesome POST-Created Article',
+//           content: 'Can you believe I did this in a test?'
+//         })
+//         .expect(200);
+
+//       expect(res.body.message).to.equal('Created successfully');
+//       expect(res.body.article.id).to.not.be.an('undefined');
+//       expect(res.body.article.title).to.equal('Awesome POST-Created Article');
+//     });
+
+//     // This one should fail with a 500 because we don't set the article.content
+//     it('does not create a new article without content', () => {
