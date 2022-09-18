@@ -10,4 +10,5 @@ module.exports = router
  * you will be able to set these environment variables with the appropriate
  * values. In development, a good practice is to keep a separate file with
  * these secrets that you only share with your team - it should NOT be tracked
- * by git! In this cas
+ * by git! In this case, you may use a file called `secrets.js`, which will
+ * set
