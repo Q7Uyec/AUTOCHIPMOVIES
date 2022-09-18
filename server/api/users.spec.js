@@ -245,3 +245,41 @@ describe('User routes', () => {
 //      * Test the updating of an article
 //      * Here we don't get back just the article, we get back an object of this type, which you construct:
 //      *  {
+//      *    message: 'Updated successfully',
+//      *    article: <the updated article instance>
+//      *  }
+//      *
+//      **/
+//     it('updates an article', async () => {
+//       const res = await agent
+//         .put('/articles/' + article.id)
+//         .send({
+//           title: 'Awesome PUT-Updated Article'
+//         })
+//         .expect(200);
+
+//       expect(res.body.message).to.equal('Updated successfully');
+//       expect(res.body.article.id).to.not.be.an('undefined');
+//       expect(res.body.article.title).to.equal('Awesome PUT-Updated Article');
+//       expect(res.body.article.content).to.equal('You can do it!');
+//     });
+
+//     it('saves updates to the DB', async () => {
+//       await agent.put('/articles/' + article.id).send({
+//         title: 'Awesome PUT-Updated Article'
+//       });
+
+//       const foundArticle = await Article.findById(article.id);
+
+//       expect(foundArticle).to.exist; // eslint-disable-line no-unused-expressions
+//       expect(foundArticle.title).to.equal('Awesome PUT-Updated Article');
+//     });
+
+//     it('gets 500 for invalid update', () => {
+//       return agent
+//         .put('/articles/' + article.id)
+//         .send({ title: '' })
+//         .expect(500);
+//     });
+//   });
+// });
