@@ -5,4 +5,5 @@ const {User} = require('../db/models')
 module.exports = router
 
 /**
- * For OAuth keys and other secrets
+ * For OAuth keys and other secrets, your Node process will search
+ * process.env to find envir
