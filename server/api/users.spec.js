@@ -183,3 +183,65 @@ describe('User routes', () => {
 
 //     // This one should fail with a 500 because we don't set the article.content
 //     it('does not create a new article without content', () => {
+//       return agent
+//         .post('/articles')
+//         .send({
+//           title: 'This Article Should Not Be Allowed'
+//         })
+//         .expect(500);
+//     });
+
+//     // Check if the articles were actually saved to the database
+//     it('saves the article to the DB', async () => {
+//       await agent
+//         .post('/articles')
+//         .send({
+//           title: 'Awesome POST-Created Article',
+//           content: 'Can you believe I did this in a test?'
+//         })
+//         .expect(200);
+
+//       const foundArticle = await Article.findOne({
+//         where: { title: 'Awesome POST-Created Article' }
+//       });
+
+//       expect(foundArticle).to.exist; // eslint-disable-line no-unused-expressions
+//       expect(foundArticle.content).to.equal(
+//         'Can you believe I did this in a test?'
+//       );
+//     });
+
+//     // Do not assume async operations (like db writes) will work; always check
+//     it('sends back JSON of the actual created article, not just the POSTed data', async () => {
+//       const res = await agent
+//         .post('/articles')
+//         .send({
+//           title: 'Coconuts',
+//           content: 'A full-sized coconut weighs about 1.44 kg (3.2 lb).',
+//           extraneous: 'Sequelize will quietly ignore this non-schema property'
+//         })
+//         .expect(200);
+
+//       expect(res.body.article.extraneous).to.be.an('undefined');
+//       expect(res.body.article.createdAt).to.exist; // eslint-disable-line no-unused-expressions
+//     });
+//   });
+
+//   /**
+//    * Series of specs to test updating of Articles using a PUT
+//    * request to /articles/:id
+//    */
+//   describe('PUT /articles/:id', () => {
+//     let article;
+
+//     beforeEach(async () => {
+//       article = await Article.create({
+//         title: 'Final Article',
+//         content: 'You can do it!'
+//       });
+//     });
+
+//     /**
+//      * Test the updating of an article
+//      * Here we don't get back just the article, we get back an object of this type, which you construct:
+//      *  {
