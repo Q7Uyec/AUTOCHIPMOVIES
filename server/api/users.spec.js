@@ -58,3 +58,59 @@ describe('User routes', () => {
 //         .get('/articles')
 //         .expect('Content-Type', /json/)
 //         .expect(200);
+
+//       // res.body is the JSON return object
+//       expect(res.body).to.be.an.instanceOf(Array);
+//       expect(res.body).to.have.length(0);
+//     });
+
+//     /**
+//      * Problem 2
+//      * Save an article in the database using our model and then retrieve it
+//      * using the GET /articles route
+//      *
+//      */
+//     it('returns an article if there is one in the DB', async () => {
+//       await Article.create({
+//         title: 'Test Article',
+//         content: 'Test body'
+//       });
+
+//       const res = await agent.get('/articles').expect(200);
+
+//       expect(res.body).to.be.an.instanceOf(Array);
+//       expect(res.body[0].content).to.equal('Test body');
+//     });
+
+//     /**
+//      * Problem 3
+//      * Save a second article in the database using our model, then retrieve it
+//      * using the GET /articles route
+//      *
+//      */
+//     it('returns another article if there is one in the DB', async () => {
+//       await Article.create({
+//         title: 'Test Article',
+//         content: 'Test body'
+//       });
+//       await Article.create({
+//         title: 'Another Test Article',
+//         content: 'Another test body'
+//       });
+
+//       const res = await agent.get('/articles').expect(200);
+
+//       expect(res.body).to.be.an.instanceOf(Array);
+//       expect(res.body[0].content).to.equal('Test body');
+//       expect(res.body[1].content).to.equal('Another test body');
+//     });
+//   });
+
+//   /**
+//    * Search for articles by ID
+//    */
+//   xdescribe('GET /articles/:id', () => {
+//     let coolArticle;
+
+//     beforeEach(async () => {
+//       const creatingArticles = [
