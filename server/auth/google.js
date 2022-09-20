@@ -17,3 +17,5 @@ module.exports = router
  * process.env.GOOGLE_CLIENT_SECRET = 'your google client secret'
  * process.env.GOOGLE_CALLBACK = '/your/google/callback'
  */
+
+if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLI
