@@ -1,1 +1,2 @@
-const Se
+const Sequelize = require('sequelize')
+const pkg = require('../../package
