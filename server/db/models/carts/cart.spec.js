@@ -1,2 +1,3 @@
 const {expect} = require('chai')
-const 
+const db = require('../../index')
+const Cart = db.model('
