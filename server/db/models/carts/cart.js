@@ -11,4 +11,4 @@ const Cart = db.define('cart', {
   }
 })
 
-modu
+module.exports = Cart
