@@ -6,4 +6,9 @@ const Cart = db.define('cart', {
     type: Sequelize.INTEGER,
     default: 1
   },
-  pricePer
+  pricePerItem: {
+    type: Sequelize.INTEGER
+  }
+})
+
+modu
