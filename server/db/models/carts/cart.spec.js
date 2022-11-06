@@ -4,4 +4,7 @@ const Cart = db.model('cart')
 
 describe('Cart model', () => {
   beforeEach(() => {
-    
+    return db.sync({force: true})
+  })
+  let cart
+  beforeEach(a
