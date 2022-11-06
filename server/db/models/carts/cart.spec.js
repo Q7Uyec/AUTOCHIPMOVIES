@@ -7,4 +7,6 @@ describe('Cart model', () => {
     return db.sync({force: true})
   })
   let cart
-  beforeEach(a
+  beforeEach(async () => {
+    cart = await Cart.build({
+      produ
