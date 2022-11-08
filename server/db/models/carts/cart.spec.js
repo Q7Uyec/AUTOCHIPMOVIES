@@ -9,4 +9,7 @@ describe('Cart model', () => {
   let cart
   beforeEach(async () => {
     cart = await Cart.build({
-      produ
+      productId: 1,
+      quantity: 2,
+      pricePerItem: 6478,
+      to
