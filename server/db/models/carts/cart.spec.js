@@ -12,4 +12,8 @@ describe('Cart model', () => {
       productId: 1,
       quantity: 2,
       pricePerItem: 6478,
-      to
+      totalCost: 12956
+    })
+  })
+
+  describe('definition of atttributes', () =
