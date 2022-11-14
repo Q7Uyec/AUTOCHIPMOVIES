@@ -16,4 +16,5 @@ describe('Cart model', () => {
     })
   })
 
-  describe('definition of atttributes', () =
+  describe('definition of atttributes', () => {
+    it('includes `productId`,`quantity`,`pricePerItem`,`tota
