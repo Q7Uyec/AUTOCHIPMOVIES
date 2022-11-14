@@ -17,4 +17,5 @@ describe('Cart model', () => {
   })
 
   describe('definition of atttributes', () => {
-    it('includes `productId`,`quantity`,`pricePerItem`,`tota
+    it('includes `productId`,`quantity`,`pricePerItem`,`totalCost` fields', () => {
+      expect(cart.productId).to.
