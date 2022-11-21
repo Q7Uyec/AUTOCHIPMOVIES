@@ -21,4 +21,7 @@ describe('Cart model', () => {
       expect(cart.productId).to.equal(1)
       expect(cart.quantity).to.equal(2)
       expect(cart.pricePerItem).to.equal(6478)
-      expect(cart.totalCost
+      expect(cart.totalCost).to.equal(12956)
+    })
+  })
+})
