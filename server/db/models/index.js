@@ -17,4 +17,7 @@ Cart.belongsTo(Order)
 
 module.exports = {
   User,
-  Product
+  Product,
+  Cart,
+  Order
+}
