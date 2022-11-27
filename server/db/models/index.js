@@ -13,4 +13,8 @@ Cart.belongsTo(User)
 User.hasOne(Cart)
 
 Order.hasMany(Cart)
-C
+Cart.belongsTo(Order)
+
+module.exports = {
+  User,
+  Product
