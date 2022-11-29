@@ -12,4 +12,7 @@ describe('Product model', () => {
       name: 'AIR',
       description: 'This is a test',
       scent: 'Fresh',
-      elevation: 3000
+      elevation: 3000,
+      quality: 'Pure',
+      price: 5.99,
+      benefits: 
