@@ -10,4 +10,6 @@ describe('Product model', () => {
   beforeEach(async() => {
     product = await Product.build({
       name: 'AIR',
-      description: 
+      description: 'This is a test',
+      scent: 'Fresh',
+      elevation: 3000
