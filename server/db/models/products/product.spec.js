@@ -6,4 +6,6 @@ describe('Product model', () => {
   beforeEach(() => {
     return db.sync({ force: true })
   });
-  let prod
+  let product
+  beforeEach(async() => {
+    product = await Product
