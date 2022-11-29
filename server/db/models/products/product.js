@@ -65,3 +65,26 @@ const Product = db.define('product', {
   },
   molecularComposition: {
     type: Sequelize.STRING,
+    allowNull: false,
+    validate: {
+      notEmpty: true
+    }
+  },
+  stock: {
+    type: Sequelize.INTEGER,
+    allowNull: false,
+    validate: {
+      notEmpty: true,
+      min: 0
+    }
+  }
+  // sourceLocation: {
+  //   type: Sequelize.STRING,
+  //   allowNull: false,
+  //   validate: {
+  //     notEmpty: true
+  //   }
+  // }
+})
+
+module.exports = Product
