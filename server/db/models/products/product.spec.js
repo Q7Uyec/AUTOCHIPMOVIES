@@ -8,4 +8,6 @@ describe('Product model', () => {
   });
   let product
   beforeEach(async() => {
-    product = await Product
+    product = await Product.build({
+      name: 'AIR',
+      description: 
