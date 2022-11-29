@@ -3,4 +3,7 @@ const db = require('../../index');
 const Product = db.model('product');
 
 describe('Product model', () => {
-  bef
+  beforeEach(() => {
+    return db.sync({ force: true })
+  });
+  let prod
