@@ -15,4 +15,6 @@ describe('Product model', () => {
       elevation: 3000,
       quality: 'Pure',
       price: 5.99,
-      benefits: 
+      benefits: 'feel good',
+      molecularComposition: 'O2N2CO2',
+   
