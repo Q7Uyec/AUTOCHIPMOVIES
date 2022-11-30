@@ -17,4 +17,8 @@ describe('Product model', () => {
       price: 5.99,
       benefits: 'feel good',
       molecularComposition: 'O2N2CO2',
-   
+      stock: 5
+    })
+  })
+
+  describe('definition of atttr
