@@ -21,4 +21,5 @@ describe('Product model', () => {
     })
   })
 
-  describe('definition of atttr
+  describe('definition of atttributes', () => {
+    it('includes `name`,`description`,
