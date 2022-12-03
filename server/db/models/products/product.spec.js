@@ -22,4 +22,4 @@ describe('Product model', () => {
   })
 
   describe('definition of atttributes', () => {
-    it('includes `name`,`description`,
+    it('includes `name`,`description`,`scent`,`elevation`,`quality`, `price`,`benefits`,`imgU
