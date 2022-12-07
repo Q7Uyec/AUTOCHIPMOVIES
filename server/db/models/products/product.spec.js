@@ -22,4 +22,5 @@ describe('Product model', () => {
   })
 
   describe('definition of atttributes', () => {
-    it('includes `name`,`description`,`scent`,`elevation`,`quality`, `price`,`benefits`,`imgU
+    it('includes `name`,`description`,`scent`,`elevation`,`quality`, `price`,`benefits`,`imgUrl`,`molecularComposition`,`stock` fields', () => {
+        expect(produc
