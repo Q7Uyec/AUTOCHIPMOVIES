@@ -6,3 +6,8 @@ const User = db.define('user', {
   firstName: {
     type: Sequelize.STRING
     // allowNull: false,
+    // validate: {
+    //   notEmpty: true
+    // }
+  },
+  l
