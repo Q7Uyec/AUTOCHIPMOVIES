@@ -1,2 +1,3 @@
 const crypto = require('crypto')
-con
+const Sequelize = require('sequelize')
+const db = require('../
