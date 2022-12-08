@@ -14,4 +14,8 @@ const User = db.define('user', {
     type: Sequelize.STRING
     // allowNull: false,
     // validate: {
-    //   notE
+    //   notEmpty: true
+    // }
+  },
+  email: {
+    type: Sequel
