@@ -10,4 +10,6 @@ const User = db.define('user', {
     //   notEmpty: true
     // }
   },
-  l
+  lastName: {
+    type: Sequelize.STRING
+    // allowNul
