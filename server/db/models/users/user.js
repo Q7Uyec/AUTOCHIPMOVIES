@@ -12,4 +12,6 @@ const User = db.define('user', {
   },
   lastName: {
     type: Sequelize.STRING
-    // allowNul
+    // allowNull: false,
+    // validate: {
+    //   notE
