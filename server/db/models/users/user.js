@@ -18,4 +18,8 @@ const User = db.define('user', {
     // }
   },
   email: {
-    type: Sequel
+    type: Sequelize.STRING,
+    unique: true,
+    allowNull: false
+  },
+  
