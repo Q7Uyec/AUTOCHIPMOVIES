@@ -43,4 +43,8 @@ const User = db.define('user', {
   //   allowNull: false,
   //   validate: {
   //     notEmpty: true
-  // 
+  //   }
+  // },
+  // city: {
+  //   type: Sequelize.STRING,
+  //   allowN
