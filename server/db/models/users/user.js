@@ -65,4 +65,8 @@ const User = db.define('user', {
   //   validate: {
   //     notEmpty: true
   //   }
-  // }
+  // },
+  // zipCode: {
+  //   type: Sequelize.INTEGER
+  // },
+  isAdmi
