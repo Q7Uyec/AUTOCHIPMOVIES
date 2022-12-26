@@ -73,4 +73,8 @@ const User = db.define('user', {
     type: Sequelize.BOOLEAN,
     defaultValue: false
   },
-  go
+  googleId: {
+    type: Sequelize.STRING,
+    defaultValue: null
+  },
+  
