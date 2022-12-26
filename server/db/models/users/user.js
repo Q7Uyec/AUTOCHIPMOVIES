@@ -38,4 +38,6 @@ const User = db.define('user', {
       return () => this.getDataValue('salt')
     }
   },
-  // ad
+  // address: {
+  //   type: Sequelize.STRING,
+  //   allowNull
