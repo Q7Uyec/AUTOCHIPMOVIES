@@ -33,4 +33,6 @@ const User = db.define('user', {
   salt: {
     type: Sequelize.STRING,
     // Making `.salt` act like a function hides it when serializing to JSON.
-    // This is a hack to ge
+    // This is a hack to get around Sequelize's lack of a "private" option.
+    get() {
+      return
