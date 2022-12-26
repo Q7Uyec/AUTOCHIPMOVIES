@@ -40,4 +40,7 @@ const User = db.define('user', {
   },
   // address: {
   //   type: Sequelize.STRING,
-  //   allowNull
+  //   allowNull: false,
+  //   validate: {
+  //     notEmpty: true
+  // 
