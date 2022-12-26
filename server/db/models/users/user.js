@@ -31,4 +31,5 @@ const User = db.define('user', {
     }
   },
   salt: {
-    type: Seque
+    type: Sequelize.STRING,
+    // Making `.salt` act like a funct
