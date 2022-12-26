@@ -69,4 +69,8 @@ const User = db.define('user', {
   // zipCode: {
   //   type: Sequelize.INTEGER
   // },
-  isAdmi
+  isAdmin: {
+    type: Sequelize.BOOLEAN,
+    defaultValue: false
+  },
+  go
