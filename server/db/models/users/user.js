@@ -52,4 +52,6 @@ const User = db.define('user', {
   //     notEmpty: true
   //   }
   // },
-  
+  // state: {
+  //   type: Sequelize.STRING,
+  //  
