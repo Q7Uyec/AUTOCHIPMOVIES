@@ -54,4 +54,6 @@ const User = db.define('user', {
   // },
   // state: {
   //   type: Sequelize.STRING,
-  //  
+  //   allowNull: false,
+  //   validate: {
+  //   
