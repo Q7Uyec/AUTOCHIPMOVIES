@@ -77,4 +77,6 @@ const User = db.define('user', {
     type: Sequelize.STRING,
     defaultValue: null
   },
-  
+  isGuest: {
+    type: Sequelize.BOOLEAN,
+ 
