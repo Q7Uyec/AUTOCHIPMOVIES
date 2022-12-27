@@ -86,4 +86,6 @@ const User = db.define('user', {
 module.exports = User
 
 /**
- *
+ * instanceMethods
+ */
+User.prototype.correctPassword = function(cand
