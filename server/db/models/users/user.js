@@ -93,4 +93,6 @@ User.prototype.correctPassword = function(candidatePwd) {
 }
 
 /**
- * classM
+ * classMethods
+ */
+User.generateSalt = function() 
