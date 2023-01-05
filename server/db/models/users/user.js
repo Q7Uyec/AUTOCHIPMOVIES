@@ -99,4 +99,5 @@ User.generateSalt = function() {
   return crypto.randomBytes(16).toString('base64')
 }
 
-User
+User.encryptPassword = function(plainText, salt) {
+  r
