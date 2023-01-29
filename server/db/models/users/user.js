@@ -105,3 +105,10 @@ User.encryptPassword = function(plainText, salt) {
     .update(plainText)
     .update(salt)
     .digest('hex')
+}
+
+/**
+ * hooks
+ */
+const setSaltAndPassword = user => {
+  if (user.changed('
