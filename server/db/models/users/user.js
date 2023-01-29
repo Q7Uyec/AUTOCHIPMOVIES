@@ -100,4 +100,6 @@ User.generateSalt = function() {
 }
 
 User.encryptPassword = function(plainText, salt) {
-  r
+  return crypto
+    .createHash('RSA-SHA256')
+    .upda
